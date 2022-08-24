@@ -4,8 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+## About Me
+
+My name is Josh Williams and I am 16 years old. I enjoy spending my days chilling with my dog Nash. (Insert Picture) I am currently working a job instead of an extracurricular such as a sport or any other type of club.
 
 
+## Here Is A Picture of Me and My Family
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+(Insert Picture)
