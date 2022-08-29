@@ -17,9 +17,9 @@ list - A “container” that can store any kinds of values
 
 # Helpful Commands
 
-cd: change directory
-cat {filename}: concatenate
-pwd: print working directory
-git clone {url}: clones GitHub repository
-ls: list files in a directory
-cp {filename}: copy
+- cd: change directory
+- cat {filename}: concatenate
+- pwd: print working directory
+- git clone {url}: clones GitHub repository
+- ls: list files in a directory
+- cp {filename}: copy
