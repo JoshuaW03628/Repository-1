@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Title",
+            "title": "NBA Quiz",
             "content": "toc: true | badges: true | comments: true | author: Josh Williams | categories: [fastpages,jupyter] | . score = 0 questions = 4 def q_a(q, a): answer = input(q) score = 0 if answer == a: print(&quot;Good job! That is correct!&quot;) score = 1 else: print(&quot;Nice try! The answer is &quot; + a + &quot;.&quot;) return score #intro: name = input(&quot;Enter your name:&quot;) print(&quot;Hey! &quot; + name) ready = input(&quot;This quiz will have &quot; + str(questions) + &quot; questions that will test your abilities to identify NBA basketball players based on their build and team. Are you ready to start this quiz? Answer yes or no.&quot;) if ready == &quot;yes&quot;: print(&quot;Let&#39;s get started!&quot;) else: print(&quot;This is easy!&quot;) #question 1: score = score + q_a(&quot;Question 1: What player is 6&#39;9 and the started SF for the LA Lakers&quot;, &quot;Lebron&quot;) #question 2: score = score + q_a(&quot;Question 2: What player is the superstar for the memphis grizzlies?&quot;, &quot;Ja Morant&quot;) #question 3: score = score + q_a(&quot;Question 3: What player is the best shooter in the league currently?&quot;, &quot;Steph Curry&quot;) #question 4: score = score + q_a(&quot;Question 4: What team is the best?&quot;, &quot;Clippers&quot;) #ending score if score &gt;= 3: print(&quot;Congratulations! You completed this quiz with an amazing score! You scored a: {}/4&quot; .format(score)) else: print(&quot;Congratulations! You completed the quiz. Your score is a: {}/4&quot; .format(score)) . Hey! Josh This is easy! Good job! That is correct! Good job! That is correct! Good job! That is correct! Good job! That is correct! Congratulations! You completed this quiz with an amazing score! You scored a: 4/4 .",
-            "url": "https://joshuaw03628.github.io/Repository-1/2022/08/28/pythonquiz.html",
-            "relUrl": "/2022/08/28/pythonquiz.html",
+            "url": "https://joshuaw03628.github.io/Repository-1/fastpages/jupyter/bash/2022/08/28/pythonquiz.html",
+            "relUrl": "/fastpages/jupyter/bash/2022/08/28/pythonquiz.html",
             "date": " • Aug 28, 2022"
         }
         
