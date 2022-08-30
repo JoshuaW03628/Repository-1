@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>
 
@@ -125,49 +125,6 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<hr />
-<p>toc: false
-layout: post
-description: The post for Dict./Title
-categories: [markdown]</p>
-<h2 id="title:-Formatting-for-Titles/Dictionary">title: Formatting for Titles/Dictionary<a class="anchor-link" href="#title:-Formatting-for-Titles/Dictionary"> </a></h2><h1 id="Format-Code-to-Run-This:">Format Code to Run This:<a class="anchor-link" href="#Format-Code-to-Run-This:"> </a></h1><h2 id="Define-an-empty-List-called-InfoDb">Define an empty List called InfoDb<a class="anchor-link" href="#Define-an-empty-List-called-InfoDb"> </a></h2><p>InfoDb = []</p>
-<h2 id="Append-to-List-a-Dictionary-of-key/values-related-to-a-person-and-cars">Append to List a Dictionary of key/values related to a person and cars<a class="anchor-link" href="#Append-to-List-a-Dictionary-of-key/values-related-to-a-person-and-cars"> </a></h2><p>InfoDb.append({
-    "FirstName": "Josh",
-    "LastName": "Williams",
-    "DOB": "January 6",
-    "Residence": "San Diego",
-    "Email": "joshuawilliams52006@gmail.com",
-    "Owns_Cars": ["2011-Nissan Versa"],
-     "Favorite Games": ["Apex-Legends"]
-})</p>
-<h2 id="Append-to-List-a-2nd-Dictionary-of-key/values">Append to List a 2nd Dictionary of key/values<a class="anchor-link" href="#Append-to-List-a-2nd-Dictionary-of-key/values"> </a></h2><p>InfoDb.append({
-    "FirstName": "Ryan",
-    "LastName": "Mcweeny",
-    "DOB": "March 27",
-    "Residence": "San Diego",
-    "Email": "N/A",
-    "Owns_Cars": ["Lamborghini"],
-    "Favorite_Show": ["CocoMelon"]
-})</p>
-<h2 id="Print-the-data-structure">Print the data structure<a class="anchor-link" href="#Print-the-data-structure"> </a></h2><p>print(InfoDb)</p>
-<h1 id="Lets-Make-This-Look-Nicer">Lets Make This Look Nicer<a class="anchor-link" href="#Lets-Make-This-Look-Nicer"> </a></h1><h2 id="given-and-index-this-will-print-InfoDb-content">given and index this will print InfoDb content<a class="anchor-link" href="#given-and-index-this-will-print-InfoDb-content"> </a></h2><p>def print_data(d_rec):
-    print(d_rec["FirstName"], d_rec["LastName"])  # using comma puts space between values
-    print("\t", "Residence:", d_rec["Residence"]) # \t is a tab indent
-    print("\t", "Birth Day:", d_rec["DOB"])
-    print("\t", "Cars: ", end="")  # end="" make sure no return occurs
-    print(", ".join(d_rec["Owns_Cars"]))  # join allows printing a string list with separator
-    print()</p>
-<h2 id="for-loop-iterates-on-length-of-InfoDb">for loop iterates on length of InfoDb<a class="anchor-link" href="#for-loop-iterates-on-length-of-InfoDb"> </a></h2><p>def for_loop():
-    print("For loop output\n")
-    for record in InfoDb:
-        print_data(record)</p>
-<p>for_loop()</p>
-
-</div>
-</div>
-</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
