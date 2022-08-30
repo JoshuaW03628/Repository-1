@@ -6,4 +6,4 @@ categories: [markdown]
 title: An Example Picture Post
 ---
 
-Format: ![]({{site.baseurl}}/images//Applications/Repository-1/images/TheMelodicBlueCover.jpeg "https://github.com/fastai/fastpages")
+(Format: ![]({{site.baseurl}}/images//Applications/Repository-1/images/TheMelodicBlueCover.jpeg "https://github.com/fastai/fastpages"))
