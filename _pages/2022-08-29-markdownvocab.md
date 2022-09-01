@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-description: The first post I made with markdown
+description: A vocab page
 categories: [markdown]
 title: Vocab Page
 ---
