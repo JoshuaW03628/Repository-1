@@ -1,9 +1,9 @@
 ---
 toc: false
 layout: post
-description: Post Using a Table
+description: Learning from ryan notes
 categories: [markdown]
-title: Making a Table
+title: jotting notes
 ---
 
 ## what is an Info DB
