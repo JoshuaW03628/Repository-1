@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Markdownlist",
-            "content": "Things I learned from Ryan . This is my first notes on a quiz . toc: true | badges: true | comments: true | author: Josh Williams | categories: [fastpages,jupyter] | . what is an Info DB . InfoDB is a list and is denoted with square Brackets | On the first line its completely empty | InfoDB.append- whatever is in is whats added | {this is a dictionary key } | Value: First Name, Key: Joshua | ” turns into a string” - collection of characters | def means its a function | string is just text | integer is just a number | float is a more complex version of an integer | boolean: a true or false statement | .",
-            "url": "https://joshuaw03628.github.io/Repository-1/2022/09/07/markdownlist.html",
-            "relUrl": "/2022/09/07/markdownlist.html",
+            "title": "Making a Table",
+            "content": "what is an Info DB . InfoDB is a list and is denoted with square Brackets | On the first line its completely empty | InfoDB.append- whatever is in is whats added | {this is a dictionary key } | Value: First Name, Key: Joshua | ” turns into a string” - collection of characters | def means its a function | string is just text | integer is just a number | float is a more complex version of an integer | boolean: a true or false statement | .",
+            "url": "https://joshuaw03628.github.io/Repository-1/markdown/2022/09/07/markdownlist.html",
+            "relUrl": "/markdown/2022/09/07/markdownlist.html",
             "date": " • Sep 7, 2022"
         }
         
