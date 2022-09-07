@@ -180,7 +180,7 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[{&#39;FirstName&#39;: &#39;Josh&#39;, &#39;LastName&#39;: &#39;Williams&#39;, &#39;MiddleName&#39;: &#39;Benjamin&#39;, &#39;DOB&#39;: &#39;January 6&#39;, &#39;Residence&#39;: &#39;San Diego&#39;, &#39;Email&#39;: &#39;joshuawilliams52006@gmail.com&#39;, &#39;Owns_Cars&#39;: [&#39;2011-Nissan Versa&#39;], &#39;Favorite_Show&#39;: [&#39;SpongeBob&#39;], &#39;Favorite_Games&#39;: [&#39;Apex-Legends&#39;]}, {&#39;FirstName&#39;: &#39;Ryan&#39;, &#39;LastName&#39;: &#39;Mcweeny&#39;, &#39;MiddleName&#39;: &#39;Robert&#39;, &#39;DOB&#39;: &#39;March 27&#39;, &#39;Residence&#39;: &#39;San Diego&#39;, &#39;Email&#39;: &#39;N/A&#39;, &#39;Owns_Cars&#39;: [&#39;Lamborghini&#39;], &#39;Favorite_Show&#39;: [&#39;CocoMelon&#39;], &#39;Favorite_Games&#39;: [&#39;Fortnite&#39;]}]
+<pre>[{&#39;FirstName&#39;: &#39;Josh&#39;, &#39;LastName&#39;: &#39;Williams&#39;, &#39;MiddleName&#39;: &#39;Benjamin&#39;, &#39;DOB&#39;: &#39;January 6&#39;, &#39;Residence&#39;: &#39;San Diego&#39;, &#39;Email&#39;: &#39;joshuawilliams52006@gmail.com&#39;, &#39;Owns_Cars&#39;: [&#39;2011-Nissan Versa&#39;], &#39;Favorite_Show&#39;: [&#39;SpongeBob&#39;], &#39;Favorite_Games&#39;: [&#39;Apex-Legends&#39;]}, {&#39;FirstName&#39;: &#39;Ryan&#39;, &#39;LastName&#39;: &#39;Mcweeny&#39;, &#39;MiddleName&#39;: &#39;Robert&#39;, &#39;DOB&#39;: &#39;March 27&#39;, &#39;Residence&#39;: &#39;San Diego&#39;, &#39;Email&#39;: &#39;N/A&#39;, &#39;Owns_Cars&#39;: [&#39;2016 GMC Acadia&#39;], &#39;Favorite_Show&#39;: [&#39;SpongeBob&#39;], &#39;Favorite_Games&#39;: [&#39;Minecraft&#39;]}]
 </pre>
 </div>
 </div>
@@ -211,9 +211,9 @@ window.onload = wrap_img;
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Birth Day:&quot;</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;DOB&quot;</span><span class="p">])</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Cars: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>  <span class="c1"># end=&quot;&quot; make sure no return occurs</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Owns_Cars&quot;</span><span class="p">]))</span>  <span class="c1"># join allows printing a string list with separator</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Show: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Fav Show: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Favorite_Show&quot;</span><span class="p">]))</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Games: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Fav Games: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Favorite_Games&quot;</span><span class="p">]))</span>
 
 <span class="c1"># for loop iterates on length of InfoDb</span>
@@ -241,14 +241,14 @@ Josh Benjamin Williams
 	 Residence: San Diego
 	 Birth Day: January 6
 	 Cars: 2011-Nissan Versa
-	 Show: SpongeBob
-	 Games: Apex-Legends
+	 Fav Show: SpongeBob
+	 Fav Games: Apex-Legends
 Ryan Robert Mcweeny
 	 Residence: San Diego
 	 Birth Day: March 27
-	 Cars: Lamborghini
-	 Show: CocoMelon
-	 Games: Fortnite
+	 Cars: 2016 GMC Acadia
+	 Fav Show: SpongeBob
+	 Fav Games: Minecraft
 </pre>
 </div>
 </div>
@@ -301,14 +301,14 @@ Josh Benjamin Williams
 	 Residence: San Diego
 	 Birth Day: January 6
 	 Cars: 2011-Nissan Versa
-	 Show: SpongeBob
-	 Games: Apex-Legends
+	 Fav Show: SpongeBob
+	 Fav Games: Apex-Legends
 Ryan Robert Mcweeny
 	 Residence: San Diego
 	 Birth Day: March 27
-	 Cars: Lamborghini
-	 Show: CocoMelon
-	 Games: Fortnite
+	 Cars: 2016 GMC Acadia
+	 Fav Show: SpongeBob
+	 Fav Games: Minecraft
 </pre>
 </div>
 </div>
@@ -361,14 +361,14 @@ Josh Benjamin Williams
 	 Residence: San Diego
 	 Birth Day: January 6
 	 Cars: 2011-Nissan Versa
-	 Show: SpongeBob
-	 Games: Apex-Legends
+	 Fav Show: SpongeBob
+	 Fav Games: Apex-Legends
 Ryan Robert Mcweeny
 	 Residence: San Diego
 	 Birth Day: March 27
-	 Cars: Lamborghini
-	 Show: CocoMelon
-	 Games: Fortnite
+	 Cars: 2016 GMC Acadia
+	 Fav Show: SpongeBob
+	 Fav Games: Minecraft
 </pre>
 </div>
 </div>
@@ -482,18 +482,18 @@ Reversed List: [&#39;6&#39;, &#39;5&#39;, &#39;4&#39;, &#39;3&#39;, &#39;2&#39;,
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Take this quiz about planes.
 Whats the best game ever
-Fortnite
-Correct, you have  1  points!
+
+Incorrect, the answer was;  Fortnite
 Who is the best Fortnite player
-Ninja
-Correct, you have  2  points!
+
+Incorrect, the answer was;  Ninja
 Whats the fortnite mascot
-idk
+
 Incorrect, the answer was;  A Llama
 What season did Josh Start Fortnite
-0
-Correct, you have  3  points!
-You have finished the quiz with  3  out of  4  points!
+
+Incorrect, the answer was;  0
+You have finished the quiz with  0  out of  4  points!
 </pre>
 </div>
 </div>
