@@ -3,7 +3,7 @@ toc: false
 layout: post
 description: Learning from ryan notes
 categories: [markdown]
-title: jotting notes
+title: Jotting Notes
 ---
 
 ## what is an Info DB
