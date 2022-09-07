@@ -1,12 +1,10 @@
-# Things I learned from Ryan
-
-> This is my first notes on a quiz
-
-- toc: true
-- badges: true
-- comments: true
-- author: Josh Williams
-- categories: [fastpages,jupyter]
+---
+toc: false
+layout: post
+description: Post Using a Table
+categories: [markdown]
+title: Making a Table
+---
 
 ## what is an Info DB
 - InfoDB is a list and is denoted with square Brackets
