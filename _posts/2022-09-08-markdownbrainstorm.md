@@ -30,3 +30,13 @@ Assesses students’ ability to use abstraction to manage complexity in a progra
 Assesses students’ ability to implement and apply an algorithm. (Skill Algorithms and Program Development)
 - Row 6: Testing
 Assesses students’ ability to investigate the situation, context,or task. (Skill Computational Solution Design - testing)
+
+## What the Process actually was
+
+- I started out messing around with keys and trying different things in order to understand the code that i was dealing with.
+- Once I was comfortable I first Started out with creating my homepage I decided on my own template and went off of that.
+- At this point I was Comfortable with the designs but still needed help with some of the code I was dealing with.
+- I asked around and understood what meant what and what went there it led me to creating all of my questions as well as a name page.
+- I added a few extra things in to make sure that I was adept with this process and completed any finishing touches.
+- Overall this project was fun and I learned some stuff about javascript.
+- Link: https://studio.code.org/projects/applab/x90pxE2I0fhd06BccaDa71bTxjLLGqgn_hDI-PEkpvI/edit 
