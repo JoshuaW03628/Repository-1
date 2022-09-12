@@ -40,3 +40,14 @@ Assesses students’ ability to investigate the situation, context,or task. (Ski
 - I added a few extra things in to make sure that I was adept with this process and completed any finishing touches.
 - Overall this project was fun and I learned some stuff about javascript.
 - Link: https://studio.code.org/projects/applab/x90pxE2I0fhd06BccaDa71bTxjLLGqgn_hDI-PEkpvI/edit 
+
+# Design, Successes, and Difficulties 
+
+## Design
+- My Design will be pretty unplanned because I don't know how to code especially in JavaScript so I will work with well, whatever works
+
+## Success
+- I Was very successful at the design elements labeling, switching screens, images, etc.
+
+## Difficulties
+- I had Difficulties With the Results Page but got information from my table allowing me to create it
