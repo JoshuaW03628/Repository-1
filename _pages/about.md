@@ -9,4 +9,3 @@ My name is Josh Williams and I am 16 years old. I enjoy spending my days chillin
 
 ## Here Is A Picture of Me and My Family
 
-hello there
