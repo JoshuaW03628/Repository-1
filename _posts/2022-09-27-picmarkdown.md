@@ -1,9 +1,9 @@
 ---
 toc: false
 layout: post
-description: Brainstorm for code.org
+description: Brainstorm 
 categories: [markdown]
-title: Week 3 Brainstorm
+title: Week 5 C Criteria
 ---
 
 ![]({{site.baseurl}}/images/scrum_process.png "https://github.com/fastai/fastpages")
