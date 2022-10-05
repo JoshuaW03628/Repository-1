@@ -1,10 +1,10 @@
-# AP Classroom scores
-> My scores.
-
-- toc: true 
-- badges: true
-- comments: true
-- categories: [jupyter]
+---
+toc: false
+layout: post
+description: Brainstorm 
+categories: [markdown]
+title: AP classroom scores
+---
 
 
 ## what were my scores
