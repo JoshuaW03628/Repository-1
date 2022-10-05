@@ -1,4 +1,4 @@
-# AP Classroo scores
+# AP Classroom scores
 > My scores.
 
 - toc: true 
