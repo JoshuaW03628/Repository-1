@@ -444,23 +444,24 @@ window.onload = wrap_img;
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;your total will be&quot;</span><span class="p">)</span>  
 
-<span class="c1"># Set sum Variable</span>
+<span class="c1"># Set sum Variable - total</span>
 <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
 
 <span class="c1">#set list as l</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[]</span>
 
-<span class="c1">#create while loop</span>
+<span class="c1">#start while loop</span>
 <span class="k">while</span> <span class="n">item</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
     <span class="c1">#append is adding the items from the menu to my list l</span>
     <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
     <span class="c1">#sets item as a variable using the input that matches with the info db</span>
     <span class="n">item</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please select an item from the menu, or click enter if you are done.&quot;</span><span class="p">)</span>
-
+<span class="c1">#function that adds up the items you bought</span>
 <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">l</span><span class="p">:</span>
     <span class="n">total</span> <span class="o">+=</span> <span class="n">menu</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
 
 <span class="c1">#code should add the price of the menu items selected by the user </span>
+<span class="c1">#rounds total to 3 place values</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">total</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
 </pre></div>
 
@@ -481,7 +482,7 @@ drink  $0.99
 shake  $2.5
 cookie  $0.99
 your total will be
-6.97
+7.96
 </pre>
 </div>
 </div>
