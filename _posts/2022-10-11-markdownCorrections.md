@@ -1,9 +1,9 @@
 ---
 toc: false
 layout: post
-description: Notes I took at the Alumni Gathering
+description: Correcting Mistakes
 categories: [markdown]
-title: Alumni Notes
+title: AP Classroom Week 2 Test Corrections.
 ---
 
 # AP Classroom Week 2 Test Corrections.
