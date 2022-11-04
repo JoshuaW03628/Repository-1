@@ -18,3 +18,5 @@ I walked through Mr.Mortensons class first and saw a bunch of people, parents, s
 ![photo]({{site.baseurl}}/images/IMG_7549.jpg)
 
 - this was a cool photo because it is made by someone I know and hes a Pheonix suns fan so it is funny because it relates to him.
+- The colors and the design really pop
+- I also hate the pheonix suns 
