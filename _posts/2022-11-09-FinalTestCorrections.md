@@ -9,7 +9,8 @@ title:  Final Corrections
 # Final Score
 
 
-![photo]({{site.baseurl}}/images/Test_Final_Score.png)
+![]({{site.baseurl}}/Test_Final_Score.png/)
+
 
 
 Honestly surprised with myself, despite doing it with my friend Eli, I also had some usage from the internet and my blog but I did grasp a lot of the concepts. Some of which are really just basic math
@@ -17,7 +18,7 @@ Honestly surprised with myself, despite doing it with my friend Eli, I also had 
 # Correction 1
 
 
-![photo]({{site.baseurl}}/images/Q2_Correction.png)
+![]({{site.baseurl}}/Q1_incorrect.png/)
 
 
 So for this one I misread the function. I could have gotten this one correct especially because I know iv'e seen it before. Nothing much to reflect on.
@@ -26,7 +27,7 @@ So for this one I misread the function. I could have gotten this one correct esp
 # Correction 2
 
 
-![photo]({{site.baseurl}}/images/Q1_incorrect.png)
+![]({{site.baseurl}}/Q2_Correction.png/)
 
 For this question it was again a miscalculation on my part, I thought that I knew what it was because im pretty sure in my ability to identify functions.
 
