@@ -13,6 +13,7 @@ title:  Final Corrections
 
 
 Honestly surprised with myself, despite doing it with my friend Eli, I also had some usage from the internet and my blog but I did grasp a lot of the concepts. Some of which are really just basic math
+
 # Correction 1
 
 
