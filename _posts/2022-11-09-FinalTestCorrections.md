@@ -27,7 +27,6 @@ For this question it was again a miscalculation on my part, I thought that I kne
 
 Questions Specifically
 
-- Question 23
 - Question 24
 - Question 29
 - Question 36
