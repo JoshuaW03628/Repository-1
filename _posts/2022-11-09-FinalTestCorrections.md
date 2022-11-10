@@ -19,7 +19,7 @@ So for this one I misread the function. I could have gotten this one correct esp
 
 # Correction 2
 
-![photo]({{site.baseurl}}/images/Q1_Incorrect.png)
+![photo]({{site.baseurl}}/images/Q1_incorrect.png)
 
 For this question it was again a miscalculation on my part, I thought that I knew what it was because im pretty sure in my ability to identify functions.
 
