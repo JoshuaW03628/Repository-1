@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "TESTING KERNELS",
-            "content": "print(&quot;hello world&quot;) .",
+            "content": "print(&quot;hello world&quot;) . hello world .",
             "url": "https://joshuaw03628.github.io/Repository-1/jupyter/2022/11/18/PythonTest.html",
             "relUrl": "/jupyter/2022/11/18/PythonTest.html",
             "date": " • Nov 18, 2022"
@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "TESTING KERNELS",
-            "content": "console.log(&quot;hi&quot;) .",
+            "content": "console.log(&quot;hi&quot;) . hi .",
             "url": "https://joshuaw03628.github.io/Repository-1/jupyter/2022/11/18/JupyterTest.html",
             "relUrl": "/jupyter/2022/11/18/JupyterTest.html",
             "date": " • Nov 18, 2022"
@@ -25,7 +25,7 @@
     
         ,"post2": {
             "title": "TESTING KERNELS",
-            "content": "echo Hello .",
+            "content": "echo Hello . Hello .",
             "url": "https://joshuaw03628.github.io/Repository-1/jupyter/2022/11/18/BashTest.html",
             "relUrl": "/jupyter/2022/11/18/BashTest.html",
             "date": " • Nov 18, 2022"
@@ -57,7 +57,7 @@
   
     
         ,"post5": {
-            "title": "Night at the museum tri 1",
+            "title": "Night at the museum tri 1 yes",
             "content": "What I did at night at the museum . What I saw . I walked through Mr.Mortensons class first and saw a bunch of people, parents, students, etc. It was cool but I was early so I walked around, I saw art, digital media, games and many other things. What I saw was all positive. No one was upset with their interaction with the teacher and all the parents had nothing but good things to say. . Nico Kermani CP . . this was a cool photo because it is made by someone I know and hes a Pheonix suns fan so it is funny because it relates to him. | The colors and the design really pop | I also hate the pheonix suns | | .",
             "url": "https://joshuaw03628.github.io/Repository-1/markdown/2022/11/04/Night@Museum.html",
             "relUrl": "/markdown/2022/11/04/Night@Museum.html",
