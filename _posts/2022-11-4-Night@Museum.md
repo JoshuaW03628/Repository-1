@@ -3,7 +3,7 @@ toc: false
 layout: post
 description: My time at night at the museum
 categories: [markdown]
-title:  Night at the museum
+title:  Night at the museum tri 1
 ---
 
 
@@ -20,3 +20,4 @@ I walked through Mr.Mortensons class first and saw a bunch of people, parents, s
 - this was a cool photo because it is made by someone I know and hes a Pheonix suns fan so it is funny because it relates to him.
 - The colors and the design really pop
 - I also hate the pheonix suns 
+- 
