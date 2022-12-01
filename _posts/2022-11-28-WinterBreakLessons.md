@@ -2,8 +2,9 @@
 toc: false
 layout: post
 description: pre tree notes
-categories: [markdown]
+categories: [Pre-Tree]
 title:  Pre tree
+permalink: /posts/Pre-Tree-Notes
 ---
 
 # Lesson 3.1/2 Variables Assignments and Data Abstraction
