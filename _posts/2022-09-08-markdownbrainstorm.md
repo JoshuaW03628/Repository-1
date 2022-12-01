@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Brainstorm for code.org
-categories: [markdown]
+categories: [Posts]
 title: Week 3 Brainstorm
 ---
 

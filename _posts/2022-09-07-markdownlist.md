@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Learning from ryan notes
-categories: [markdown]
+categories: [Posts]
 title: Jotting Notes
 ---
 

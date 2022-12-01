@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: My time at night at the museum
-categories: [markdown]
+categories: [Posts]
 title:  Night at the museum tri 1 yes
 ---
 

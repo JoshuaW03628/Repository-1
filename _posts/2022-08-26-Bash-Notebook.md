@@ -7,7 +7,7 @@ branch: master
 badges: true
 comments: true
 author: Josh Williams
-categories: [fastpages, jupyter, bash]
+categories: [Posts]
 nb_path: _notebooks/2022-08-26-Bash-Notebook.ipynb
 layout: notebook
 ---

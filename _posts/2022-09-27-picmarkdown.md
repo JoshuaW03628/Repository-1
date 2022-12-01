@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Brainstorm 
-categories: [markdown]
+categories: [Posts]
 title: Week 5 C Criteria
 ---
 

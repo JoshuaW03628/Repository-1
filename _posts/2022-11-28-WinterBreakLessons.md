@@ -145,3 +145,46 @@ A substring is a part of and already existing string.
 
 - In pseudocode substring() method is used for instance for concat("Mr.Mortenson is very handsome" 1, 2) the system would return Mr (remember that pseudocode starts at 1)
 
+
+# Lesson 3.5 - 3.7  
+
+
+## What is a Boolean
+
+- A data type with two possible values: true or false
+
+## What is the Difference between a Boolean and Binary
+
+So similar yet so different.
+
+- Boolean math and binary notation both use the same two ciphers: 1 and 0.
+- However, please note that Boolean quantities are restricted to a singlular bit (can only be either 1, or 0)
+- On the otherhand, binary numbers may be composed of many bits adding up in place-weighted form to any finite value, or size
+
+## Logical Operators
+
+These types of operators don't necessarily deal with equivalent/non-equivalent values, but they rather work on operands to produce a singular boolean result
+
+- AND : returns TRUE if the operands around it are TRUE
+- OR : returns TRUE if at least one operand is TRUE
+- NOT : returns TRUE if the following boolean is FALSE
+
+
+## Conditionals
+
+- Selection: uses a condition that evaluates to true or false
+
+- Selection determines which part of an algorithm are executed based on a condition being true or false
+
+- Algorithm is a finite set of instructions that accomplish a specific task
+
+CONDITIONAL STATEMENTS
+
+- also known as if statements, and also else.
+
+## Nested Conditionals
+
+
+- If else statements within if else statement
+
+

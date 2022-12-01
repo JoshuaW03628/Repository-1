@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Correcting Mistakes
-categories: [markdown]
+categories: [Posts]
 title: AP Classroom Week 2 Test Corrections.
 ---
 

@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Post Using a Table
-categories: [markdown]
+categories: [Posts]
 title: Making a Table
 ---
 

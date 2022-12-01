@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Reflecting on Videos
-categories: [markdown]
+categories: [Posts]
 title:  Teams Reflection
 ---
 

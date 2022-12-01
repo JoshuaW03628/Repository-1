@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Brainstorm 
-categories: [markdown]
+categories: [Posts]
 title: AP classroom scores week 2
 ---
 

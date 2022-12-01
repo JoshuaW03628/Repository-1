@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: Notes I took at the Alumni Gathering
-categories: [markdown]
+categories: [Posts]
 title: Alumni Notes
 ---
 
