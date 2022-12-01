@@ -78,7 +78,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
@@ -94,7 +94,7 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h1 id="lesson-31-variables-assignments-and-data-abstraction">Lesson 3.1 Variables Assignments and Data Abstraction</h1>
+    <h1 id="lesson-312-variables-assignments-and-data-abstraction">Lesson 3.1/2 Variables Assignments and Data Abstraction</h1>
 
 <h2 id="what-is-a-variable">What is a variable</h2>
 
@@ -113,7 +113,7 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<h1 id="naming-variables">Naming Variables</h1>
+<h2 id="naming-variables">Naming Variables</h2>
 
 <ul>
   <li>Keep the name simple but not too vague</li>
@@ -123,9 +123,9 @@ window.onload = wrap_img;
 <h2 id="types-of-data">Types of data</h2>
 
 <ul>
-  <li>Integer;</li>
-  <li>Text/String;</li>
-  <li>Boolean;</li>
+  <li>Integer; A number</li>
+  <li>Text/String; A word</li>
+  <li>Boolean; Data that determines if something is true or false</li>
 </ul>
 
 <h2 id="what-is-data-abstraction">What is Data Abstraction</h2>
@@ -146,14 +146,23 @@ window.onload = wrap_img;
 
 <ul>
   <li>
-    <p>List = ordered sequence of elements</p>
+    <p>List = ordered sequence of elements.</p>
   </li>
-  <li>Element = individual value in a list that is assigned to a unique index</li>
-  <li>Index = a way to reference the elements in a list or string using natural numbers; each element of a string is referenced by an index</li>
-  <li>String = ordered sequence of characters (Letters, numbers, special characters)</li>
+  <li>Element = individual value in a list that is assigned to a unique index.</li>
+  <li>Index = a way to reference the elements in a list or string using natural numbers; each element of a string is referenced by an index.</li>
+  <li>String = ordered sequence of characters (Letters, numbers, special characters).</li>
 </ul>
 
-<h1 id="33-lesson">3.3 Lesson</h1>
+<h2 id="-ap-exam-usage-of-data-abstraction">* AP Exam usage of Data Abstraction</h2>
+
+<p>With the properties of the AP Exam pseudocode, lists work differently from what we’ve learned in python so far, here are the two major differences:</p>
+
+<ul>
+  <li>The index does not start at 0 but 1</li>
+  <li>There is only one method of interchanging data between lists, and that is completely overwriting previous list data with the other list\n”,</li>
+</ul>
+
+<h1 id="334-lesson">3.3/4 Lesson</h1>
 
 <h2 id="algorithms">Algorithms</h2>
 
@@ -171,12 +180,54 @@ window.onload = wrap_img;
     <p>Algorithms can be represented in two ways</p>
 
     <ul>
-      <li>Flowcharts or Psuedocode</li>
+      <li>Flowcharts or Psuedocode.</li>
     </ul>
   </li>
 </ul>
 
 <h2 id="arithmetic-operations">Arithmetic Operations</h2>
+
+<ul>
+  <li>Basic</li>
+</ul>
+
+<p>Subtraction:
+Represented by “-“
+num1 = 2 - 1</p>
+
+<p>Addition:
+Represented by “+”
+num1 = 2 + 1</p>
+
+<p>Multiplication:
+Represented by “*”
+num1 = 2 * 1</p>
+
+<p>Division:
+Represented by “/”
+num1 = 2 / 1</p>
+
+<p>Getting the Remainder:
+Represented by “MOD” (% in python)
+num1 = 5 % 2</p>
+
+<ul>
+  <li>Order of Operations</li>
+</ul>
+
+<p>Arithmetic operations in programming are performed in the same order as operations in mathematics:</p>
+
+<ul>
+  <li>
+    <p>Operations in parentheses should be done first.</p>
+  </li>
+  <li>
+    <p>Division and multiplication should be done before addition and subtraction.</p>
+  </li>
+  <li>
+    <p>Modulus works similar to multiplication and division.</p>
+  </li>
+</ul>
 
 <h2 id="variables">Variables</h2>
 
@@ -192,15 +243,46 @@ window.onload = wrap_img;
 
 <h2 id="sequence">Sequence</h2>
 
-<ul>
-  <li></li>
-</ul>
+<p>Changing the order of the steps changes the overall outcome, since every time the value assigned to a variable is changed, it overrides the last value which was assigned to the same variable. That is why it is important to track the value of variables, especially in code where the value is constantly changing.</p>
 
 <h2 id="string">String</h2>
 
+<p>A String: A string is a collection of characters. What is a character as character can be anything from numbers, letters, spaces, special symbols, etc.</p>
+
+<p>Certain procedures may be used with strings and they vary from programming language to language Python examples;</p>
+
 <ul>
-  <li></li>
+  <li>
+    <p>len() to find the length of a string</p>
+  </li>
+  <li>
+    <p>lower() to convert to lowercase</p>
+  </li>
 </ul>
+
+<p>Pseudocode examples;</p>
+
+<ul>
+  <li>
+    <p>len() returns the length of a string</p>
+  </li>
+  <li>
+    <p>concat() returns a string made up of the concatenated strings ex. concat(“string1”, “string2”) would return string1string2</p>
+  </li>
+  <li>
+    <p>substring() returns the characters from the string beginning at the at the first position to the last so an example of this would be substring (“abcdefghijk”, 2, 5) would print bcde (pseudocode starts at 1)</p>
+  </li>
+  <li>
+    <p>SubString</p>
+  </li>
+</ul>
+
+<p>A substring is a part of and already existing string.</p>
+
+<ul>
+  <li>In pseudocode substring() method is used for instance for concat(“Mr.Mortenson is very handsome” 1, 2) the system would return Mr (remember that pseudocode starts at 1)</li>
+</ul>
+
 
   </div><a class="u-url" href="/Repository-1/Pre-Tree/2022-11-28-WinterBreakLessons.html" hidden></a>
 </article>
