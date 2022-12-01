@@ -1,9 +1,9 @@
 ---
 toc: false
 layout: post
-description: My time at night at the museum
+description: pre tree notes
 categories: [markdown]
-title:  Final Corrections 1
+title:  Pre tree
 ---
 
 # Lesson 3.1 Variables Assignments and Data Abstraction
