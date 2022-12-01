@@ -6,7 +6,7 @@ categories: [markdown]
 title:  Pre tree
 ---
 
-# Lesson 3.1 Variables Assignments and Data Abstraction
+# Lesson 3.1/2 Variables Assignments and Data Abstraction
 
 ## What is a variable
 
@@ -20,7 +20,7 @@ title:  Pre tree
 
 
 
-# Naming Variables
+## Naming Variables
 
 - Keep the name simple but not too vague
 - proper syntax, no spaces
@@ -28,9 +28,10 @@ title:  Pre tree
 
 ## Types of data
 
-- Integer;
-- Text/String;
-- Boolean;
+- Integer; A number
+- Text/String; A word
+- Boolean; Data that determines if something is true or false
+
 
 ## What is Data Abstraction
 
@@ -43,14 +44,22 @@ title:  Pre tree
 
 ## Lists and Strings
 
-- List = ordered sequence of elements
+- List = ordered sequence of elements.
 
-- Element = individual value in a list that is assigned to a unique index
-- Index = a way to reference the elements in a list or string using natural numbers; each element of a string is referenced by an index
-- String = ordered sequence of characters (Letters, numbers, special characters)
+- Element = individual value in a list that is assigned to a unique index.
+- Index = a way to reference the elements in a list or string using natural numbers; each element of a string is referenced by an index.
+- String = ordered sequence of characters (Letters, numbers, special characters).
+
+## * AP Exam usage of Data Abstraction
 
 
-# 3.3 Lesson
+With the properties of the AP Exam pseudocode, lists work differently from what we've learned in python so far, here are the two major differences:
+
+- The index does not start at 0 but 1
+- There is only one method of interchanging data between lists, and that is completely overwriting previous list data with the other list\n",
+
+
+# 3.3/4 Lesson
 
 ## Algorithms
 
@@ -62,9 +71,41 @@ title:  Pre tree
 
 - Algorithms can be represented in two ways
 
-    - Flowcharts or Psuedocode
+    - Flowcharts or Psuedocode.
 
 ## Arithmetic Operations
+
+- Basic
+
+Subtraction:
+Represented by “-"
+num1 = 2 - 1
+
+Addition:
+Represented by "+"
+num1 = 2 + 1
+
+Multiplication:
+Represented by “*”
+num1 = 2 * 1
+
+Division:
+Represented by “/”
+num1 = 2 / 1
+
+Getting the Remainder:
+Represented by “MOD” (% in python)
+num1 = 5 % 2
+
+- Order of Operations
+
+Arithmetic operations in programming are performed in the same order as operations in mathematics:
+
+- Operations in parentheses should be done first.
+
+- Division and multiplication should be done before addition and subtraction.
+
+- Modulus works similar to multiplication and division.
 
 ## Variables
 
@@ -75,8 +116,31 @@ title:  Pre tree
 
 ## Sequence
 
-- 
+Changing the order of the steps changes the overall outcome, since every time the value assigned to a variable is changed, it overrides the last value which was assigned to the same variable. That is why it is important to track the value of variables, especially in code where the value is constantly changing.
+
+
 
 ## String
 
-- 
+A String: A string is a collection of characters. What is a character as character can be anything from numbers, letters, spaces, special symbols, etc.
+
+Certain procedures may be used with strings and they vary from programming language to language Python examples;
+
+- len() to find the length of a string
+
+- lower() to convert to lowercase
+ 
+Pseudocode examples;
+
+- len() returns the length of a string
+
+- concat() returns a string made up of the concatenated strings ex. concat("string1", "string2") would return string1string2
+
+- substring() returns the characters from the string beginning at the at the first position to the last so an example of this would be substring ("abcdefghijk", 2, 5) would print bcde (pseudocode starts at 1)
+
+- SubString 
+
+A substring is a part of and already existing string.
+
+- In pseudocode substring() method is used for instance for concat("Mr.Mortenson is very handsome" 1, 2) the system would return Mr (remember that pseudocode starts at 1)
+
