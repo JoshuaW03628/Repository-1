@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      6 min read
     
 </span></p>
 
@@ -338,6 +338,129 @@ num1 = 5 % 2</p>
   <li>If else statements within if else statement</li>
 </ul>
 
+<h1 id="lesson-38310">Lesson 3.8/3.10</h1>
+
+<h2 id="what-is-a-list">What is a list</h2>
+
+<p>Lists: a sequence of variables</p>
+<ul>
+  <li>we can use lists to store multiple items into one variable</li>
+  <li>used to store collections of data</li>
+  <li>changeable, ordered, allow duplicates</li>
+</ul>
+
+<h3 id="lists-are-just-one-of-four-collection-data-types-in-python">Lists are just one of four collection data types in Python</h3>
+<ul>
+  <li>Tuple: collection that is ordered, unchangeable, allows duplicates</li>
+  <li>Set: collection that is unordered, unchangeable, doesn’t allow duplicates</li>
+  <li>Dictionary: collection that is ordered, changeable, doesn’t allow duplicates</li>
+</ul>
+
+<h3 id="terms">Terms</h3>
+<ul>
+  <li>Index: a term used to sort data in order to reference to an element in a list (allows for duplicates)</li>
+  <li>Elements: the values in the list assigned to an index</li>
+</ul>
+
+<h2 id="methods-in-lists">Methods in Lists</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Definition</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>append()</td>
+      <td>adds element to the end of the list</td>
+      <td>fruits.append(“watermelon”)</td>
+    </tr>
+    <tr>
+      <td>index()</td>
+      <td>returns the index of the first element with the specified value</td>
+      <td>fruits.index(“apple”)</td>
+    </tr>
+    <tr>
+      <td>insert()</td>
+      <td>adds element at given position</td>
+      <td>fruits.insert(1, “watermelon”)</td>
+    </tr>
+    <tr>
+      <td>remove()</td>
+      <td>removes the first item with the specified value</td>
+      <td>fruits.remove(“strawberry”)</td>
+    </tr>
+    <tr>
+      <td>reverse()</td>
+      <td>reverses the list order</td>
+      <td>fruits.reverse()</td>
+    </tr>
+    <tr>
+      <td>sort()</td>
+      <td>sorts the list</td>
+      <td>fruits.sort()</td>
+    </tr>
+    <tr>
+      <td>count()</td>
+      <td>returns the amount of elements with the specified value</td>
+      <td>fruits.count(“apple”)</td>
+    </tr>
+    <tr>
+      <td>copy()</td>
+      <td>returns a copy of the list</td>
+      <td>fruits.copy()</td>
+    </tr>
+    <tr>
+      <td>clear()</td>
+      <td>removes the elements from the list</td>
+      <td>fruits.clear()</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="what-is-iteration">What is Iteration</h2>
+<blockquote>
+  <p>Iteration is the repetition of a process or utterance applied to the result or taken from a previous statement.
+There’s a lot of types of iteration though, what to use? How do we apply iteration to lists?</p>
+</blockquote>
+
+<blockquote>
+  <p>Some methods include using a “for loop”, using a “for loop and range()”, using a “while loop”, and using comprehension</p>
+</blockquote>
+
+<h3 id="usage">Usage</h3>
+<blockquote>
+  <p>Lists, tuples, dictionaries, and sets are iterable objects. They are the ‘containers’ that store the data to iterate.</p>
+</blockquote>
+
+<blockquote>
+  <p>Each of these containers are able to iterate with the iter() command.</p>
+</blockquote>
+
+<blockquote>
+  <p>There are 2 types of iteration: definite and indefinite. Definite iteration clarifies how many times the loop is going to run, while indefinite specifies a condition that must be met</p>
+</blockquote>
+
+<h3 id="iterator-iterable-iteration">Iterator? Iterable? Iteration?</h3>
+<ul>
+  <li>When an object is iterable it can be used in an iteration</li>
+  <li>When passed through the function iter() it returns an iterator</li>
+  <li>Strings, lists, dictionaries, sets and tuples are all examples of iterable objects.</li>
+</ul>
+
+<h4 id="too-time-consuming">Too time consuming?</h4>
+
+<ul>
+  <li>use the range function x=range( )</li>
+</ul>
+
+<h2 id="2d-arrays">2D Arrays</h2>
+<ul>
+  <li>a list of lists, literally</li>
+</ul>
 
   </div><a class="u-url" href="/Repository-1/posts/Pre-Tree-Notes" hidden></a>
 </article>
