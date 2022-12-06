@@ -188,3 +188,60 @@ CONDITIONAL STATEMENTS
 - If else statements within if else statement
 
 
+# Lesson 3.8/3.10
+
+## What is a list
+
+Lists: a sequence of variables
+- we can use lists to store multiple items into one variable
+- used to store collections of data
+- changeable, ordered, allow duplicates
+
+### Lists are just one of four collection data types in Python
+- Tuple: collection that is ordered, unchangeable, allows duplicates
+- Set: collection that is unordered, unchangeable, doesn't allow duplicates
+- Dictionary: collection that is ordered, changeable, doesn't allow duplicates
+
+### Terms
+- Index: a term used to sort data in order to reference to an element in a list (allows for duplicates)
+- Elements: the values in the list assigned to an index
+
+## Methods in Lists
+
+| Method | Definition | Example |
+|-|-|-|
+| append() | adds element to the end of the list | fruits.append("watermelon") |
+| index() | returns the index of the first element with the specified value | fruits.index("apple") |
+| insert() | adds element at given position | fruits.insert(1, "watermelon")|
+| remove() | removes the first item with the specified value | fruits.remove("strawberry") |
+| reverse() | reverses the list order | fruits.reverse() |
+| sort() | sorts the list | fruits.sort() |
+| count() | returns the amount of elements with the specified value | fruits.count("apple") |
+| copy() | returns a copy of the list | fruits.copy() |
+| clear() | removes the elements from the list | fruits.clear() |
+
+
+## What is Iteration
+> Iteration is the repetition of a process or utterance applied to the result or taken from a previous statement.
+> There's a lot of types of iteration though, what to use? How do we apply iteration to lists? 
+
+> Some methods include using a "for loop", using a "for loop and range()", using a "while loop", and using comprehension 
+
+### Usage
+> Lists, tuples, dictionaries, and sets are iterable objects. They are the 'containers' that store the data to iterate. 
+
+>Each of these containers are able to iterate with the iter() command. 
+
+>There are 2 types of iteration: definite and indefinite. Definite iteration clarifies how many times the loop is going to run, while indefinite specifies a condition that must be met
+
+### Iterator? Iterable? Iteration? 
+- When an object is iterable it can be used in an iteration 
+- When passed through the function iter() it returns an iterator 
+- Strings, lists, dictionaries, sets and tuples are all examples of iterable objects.
+
+#### Too time consuming?
+
+- use the range function x=range( )
+
+## 2D Arrays
+- a list of lists, literally
