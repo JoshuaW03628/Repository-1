@@ -16,4 +16,4 @@ permalink: /posts/Pre-Tree-Grades
 ## Pre Tree Week 2 Grades
 | 3.5 & 3.7 | 3.8 and 3.10 | Total |
 | :---------: | :-----------: | :---------: |
-| 0.9/1 | 0/1 | 1.8/2 |
+| 0.9/1 | 0.9/1 | 1.8/2 |
