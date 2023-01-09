@@ -15,31 +15,36 @@ permalink: /posts/Pre-Tree-Grades
 
 - **1 point** - **Program Purpose and Function** (Row 1)
 -  Video should demonstrate the following running aspects of the program;
- - [ ] Input
- - [x] Program Functionality
- - [x] Output
- - Written Response for this row should include these descriptions;
- - [x] Describes the overall purpose of the program
- - [x] Describes what functionality of the program is demonstrated in the video. 
- - [x] Describes the input and output of the program demonstrated in the video.
- -----------------------------------------------------------------------------------
+- [ ] Input
+- [x] Program Functionality
+- [x] Output
+- Written Response for this row should include these descriptions;
+- [x] Describes the overall purpose of the program
+- [x] Describes what functionality of the program is demonstrated in the video. 
+- [x] Describes the input and output of the program demonstrated in the video.
+-----------------------------------------------------------------------------------
 - **1 Point** - **Data Abstraction** (Row 2)
 - The written piece on this row should include two program code segments;
 - [x] one that shows how data has been stored in this list (or other collection type).
 - [x] one that shows the data in this same list being used as part of fulfilling the program’s purpose.
 - It must also;
 - [x] identifies the name of the variable representing the list being used in this response. 
+
 - [x] describes what the data contained in this list is representing in the program.
-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
 - **1 point** - **Managing Complexity** (Row 3)
 - The written response must include;
 - [ ] a program code segment that shows a listComplexity being used to manage complexity in the program.
+
 - [ ] explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list. 
+
 ----------------------------------------------------------------------------------
 - **1 point** - **Procedural Abstraction** (Row 4)
 - The written response must include;
 - two program code segments;
 - [x] Abstraction - one showing a student-developed procedure Requirements for program code segments with at least one parameter that has an effect on the functionality of the procedure.
+
 - [x] one showing where the student-developed procedure is being called. 
 - Must also;
 - [x] describes what the identified procedure does and how it contributes to the overall functionality of the
