@@ -64,7 +64,7 @@ to the procedure.
 
 ### Comments
 
-
+This gives them an overall grade of 3/6. This student did very well in many categories however just one miss in any colum can cost you and besides the managing complexity piece he just had singular pieces missing costing him 2 points.
 
 # Submission 2
 
@@ -119,3 +119,7 @@ each call must pass a different argument(s) that causes a different segment of c
 - [x] describes the condition(s) being tested by each call
 to the procedure.
 - [x] identifies the result of each call.
+
+### Comments
+
+Honestly nothing wrong with the project it was organized and clearly well thought out giving them a perfect score.
