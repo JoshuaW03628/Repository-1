@@ -17,3 +17,18 @@ permalink: /posts/Blog_Review
 | Procedural Abstraction | Shows a student-developed procedure with at least one parameter that has an effect on the functionality of the procedure, and shows where that procedure is called. Describes how the procedure contributes to the functionality of the program. | One specific way that this can be shown is in hi-lo. The game is called in the submenu and has an effect as one of the 4 created games to make the website function. |
 | Algorithm Implementation | Includes a student-developed algorithm that includes sequencing, selection, and iteration. Explains how the algorithm works in detail enough to where someone could recreate it. | Each of the games will have some sort of algorithm implemented |
 | Testing | Describe two calls to the selected procedure in response 3c. Each call must pass a argument that causes different outputs. Describes conditions being tested by each call. Identifies the result of each call. | Our Group will test two different features in each separate arcade game, these will test specific conditions and give different results. |
+
+##  CPT
+
+Each person in our group is creating their own specific game for the arcade, each members CPT will be focused on their respective game. This all will be incorporated into a larger project, which is the entire arcade itself.
+
+## Code Plan
+
+- User pays 2 coins to play 
+- Every Guess the user is deducted 2 coins from 20, all the way until they guess the number
+- The user will keep the sum of what they end with wether that is less than 1o or over will decide their +/-.
+- The user will be brought to a play again/exit screen after each round.
+
+## Video Plan
+
+- I will show the creation of my account and grant of tokens then play my specific game, I will then check my rank on the leaderboard
