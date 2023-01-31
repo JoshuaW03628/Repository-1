@@ -10,15 +10,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="5.1/2 Review" />
 <meta property="og:description" content="5.1/2 Review" />
-<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/posts/Tuesday_Notes" />
-<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/posts/Tuesday_Notes" />
+<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/posts/Blog_Review.md" />
+<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/posts/Blog_Review.md" />
 <meta property="og:site_name" content="Josh’s blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-01-25T00:00:00-06:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="5.1/2 Notes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-25T00:00:00-06:00","datePublished":"2023-01-25T00:00:00-06:00","description":"5.1/2 Review","headline":"5.1/2 Notes","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/posts/Tuesday_Notes"},"url":"https://joshuaw03628.github.io/Repository-1/posts/Tuesday_Notes"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-25T00:00:00-06:00","datePublished":"2023-01-25T00:00:00-06:00","description":"5.1/2 Review","headline":"5.1/2 Notes","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/posts/Blog_Review.md"},"url":"https://joshuaw03628.github.io/Repository-1/posts/Blog_Review.md"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Repository-1/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://joshuaw03628.github.io/Repository-1/feed.xml" title="Josh's blog" /><link rel="shortcut icon" type="image/x-icon" href="/Repository-1/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -170,7 +170,7 @@ window.onload = wrap_img;
 </ul>
 
 
-  </div><a class="u-url" href="/Repository-1/posts/Tuesday_Notes" hidden></a>
+  </div><a class="u-url" href="/Repository-1/posts/Blog_Review.md" hidden></a>
 </article>
 
       </div>
