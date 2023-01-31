@@ -4,7 +4,7 @@ layout: post
 description: 5.1/2 Review
 categories: [Posts]
 title:  5.1/2 Notes
-permalink: /posts/Tuesday_Notes
+permalink: /posts/Blog_Review.md
 ---
 
 # 5.1
