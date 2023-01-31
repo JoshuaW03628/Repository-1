@@ -1,10 +1,10 @@
 ---
 toc: false
 layout: post
-description: 5.1/2 Review
-categories: [Posts]
-title:  5.1/2 Notes
-permalink: /posts/Blog_Review.md
+description: Blog Reviews
+categories: [Pre-Tree]
+title:  5.1-2 Review
+permalink: /posts/Blog_Review
 ---
 
 # 5.1
