@@ -3,7 +3,7 @@ toc: false
 layout: post
 description: Blog on CPT
 categories: [Pre-Tree]
-title:  5.1-2 Review
+title:  Project Blog
 permalink: /posts/ProjectBlog
 ---
 
