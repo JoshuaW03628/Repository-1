@@ -1,10 +1,10 @@
 ---
 toc: false
 layout: post
-description: Corrects
+description: Correctimundo
 categories: [Pre-Tree]
 title:  Corrections
-permalink: /posts/Blog_Review
+permalink: /posts/MCQ2-Corrections
 ---
 
 ## I Scored a 46/50

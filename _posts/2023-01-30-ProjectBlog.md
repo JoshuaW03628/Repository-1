@@ -1,10 +1,10 @@
 ---
 toc: false
 layout: post
-description: Blog Reviews
+description: Blog on CPT
 categories: [Pre-Tree]
 title:  5.1-2 Review
-permalink: /posts/Blog_Review
+permalink: /posts/ProjectBlog
 ---
 
 ## Rubric
