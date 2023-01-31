@@ -1,10 +1,10 @@
 ---
-toc: false
+toc: true
 layout: post
-description: Blog Reviews
+description: Blog Reflections for Unit 5
 categories: [Pre-Tree]
-title:  5.1-2 Review
-permalink: /posts/Blog_Review
+title: Unit 5 Blog reflections
+permalink: /posts/unit5_reflections
 ---
 
 # 5.1
@@ -55,3 +55,37 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 - At Del Norte Specifically these barriers can include outdated technology infrastructure, limited access to technology resources, and a lack of teacher training and support for digital learning; Elsewhere would probably have similar problems.
 
+# 5.3 
+
+## Q1 Does the owner of the computer think this was intentional?, If yes or no, justify you conclusion.
+
+- Definitely not, he has a hint of sarcasm in his voice so you can tell hes joking. he probably understands that it was a problem with the face recognition software and not purposely implemented.
+
+### How do you think this happened?
+
+- HP probably only tested white people or people with lighter skin tones, so they did not recognize that the software is racist.
+
+### Is this harmful? Was it intended to be harmful or exclude?
+
+- This was not harmful, it was not supposed to work like this so exclude.
+
+### Should it be corrected?
+
+- Most Definitely. Or else they are losing a large audience of buyers for their company.
+
+### What would you or should you do to produce a better outcome?
+
+- Fix the software and refund people.
+
+# 5.4
+
+## Q1, CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+
+- I call my idea "Student-Led Solutions to School Challenges." The idea is to encourage students to come up with innovative and practical solutions to common challenges faced in school, such as school safety, bullying, improving the school environment, etc; This crowdsource initiative can empower students to take an active role in improving Del Norte, while also developing critical skills such as problem-solving, collaboration, and leadership.
+
+- We could do this by;
+Provide training and resources to help students understand the crowdsource process, including how to develop and present their ideas effectively, Then create an online platform where students can submit their ideas, comment, and vote on each other's submissions.
+
+## Q2, What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+
+- This could be a possibility, with my project being an arcade we could implement a commenting system or create a discord to help provide feedback on the games/website. This would allow us to improve our project if open to a large audience which can be easily created through outsourcing our social media.
