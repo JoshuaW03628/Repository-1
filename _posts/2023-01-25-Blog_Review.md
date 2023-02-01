@@ -9,7 +9,7 @@ permalink: /posts/unit5_reflections
 
 # 5.1
 
-## Q1, Come up with three of your own Beneficial and corresponding Harmful Effects of Computing.
+### Q1, Come up with three of your own Beneficial and corresponding Harmful Effects of Computing.
 
 ### Benefits
 
@@ -23,7 +23,7 @@ permalink: /posts/unit5_reflections
 -  The proliferation of fake news and misinformation on the internet can spread rapidly and negatively impact societies.
 - Harmful: Automation has led to job displacement, as some tasks can now be performed by machines instead of people.
 
-## Q2, Talk about dopamine issues above. Real? Parent conspiracy? Anything that is impacting your personal study and success in High School?
+### Q2, Talk about dopamine issues above. Real? Parent conspiracy? Anything that is impacting your personal study and success in High School?
 
 -  There is evidence to suggest that certain technologies, such as social media, can affect dopamine levels and lead to addictive behavior. However, the relationship between technology and dopamine is complex and not fully understood.
 
@@ -31,7 +31,7 @@ permalink: /posts/unit5_reflections
 
 # 5.2
 
-## Q1, How does someone empower themself in a digital world?
+### Q1, How does someone empower themself in a digital world?
 
 Empowering oneself in a digital world involves taking control of one's digital presence and maximizing its benefits while minimizing its risks. You can do this by;
 
@@ -43,13 +43,13 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 - etc.
 
-## Q2, How does someone that is empowered help someone that is not empowered? Describe something you could do at Del Norte HS.
+### Q2, How does someone that is empowered help someone that is not empowered? Describe something you could do at Del Norte HS.
 
 - When someone is empowered, they have the knowledge, skills, and confidence to navigate and thrive in the digital world. To help someone who is not empowered, they can use their skills and resources to educate, support, and empower others.
 
 - One thing you could do is Mentoring, offer to help someone with a specific digital skill or project, and share your knowledge and experience with them.
 
-## Q3, Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?
+### Q3, Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?
 
 - Paper and red tape can sometimes act as barriers to digital empowerment, especially in situations where government or organizational policies and procedures are not aligned with the use of technology. These barriers can take the form of regulations, restrictions on access to technology, or the lack of resources and support for digital initiatives.
 
@@ -57,13 +57,35 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 # 5.3 
 
-## Q1 Does the owner of the computer think this was intentional?, If yes or no, justify you conclusion.
+## Notes
+
+- Computer Bias, only gives you 1 view as an AI, humans make mistakes and you need a broad view of topics.
+
+### Q Google “What age groups use Facebook” vs “… TikTok”? What does the data say? Is there purposeful exclusion in these platforms? Is it harmful? Should it be corrected? Is it good business?
+
+- Typically you would see an older audience using Facebook nowadays, as it is an older social media platform, specifically ages 30-50.
+- In tiktok you would typically see ages 10-19 because it is a newer search engine and gives easy access to content and more enjoyable for the younger generation than you would see on tiktok.
+- I do not believe that there is any purposeful exclusion in these platforms because the more people for the app te better for them, so I don't see why this would be the case. I believe that it is more of a generational gap and more advanced media and isn't harmful.
+
+### Why do virtual assistants have female voices? Amazon, Alexa Google, Apple Siri. Was this purposeful? Is it harmful? Should it be corrected? Is it good business?
+
+- According to BBC.com, "you might find feminine synthesised voices to be more common than masculine ones. But why? It's partly down to the fact that companies spent decades acquiring many more recordings of women's voices than of men's." Personally I believe that the reason for the gathering of women's voices is because they are softer and more smooth.
+
+- This is probably purposeful but I don't believe that it is harmful because at the end of the day it is an AI and there are features to switch the voices if desired. I don't believe it needs to be corrected and to me it is good business.
+
+### Talk about an algorithm that influences your decisions, think about these companies (ie FAANG - Facebook, Amazon, Apple,Netflix, Google)
+
+- One specific algorithm that impacts almost everyone in the modern day would be Google. It is the most widely used search engine and people rely on it for obtaining information and doing research. Based on what this engine shows, people develop opinions on it.
+
+## Hacks
+
+### Q1 Does the owner of the computer think this was intentional?, If yes or no, justify you conclusion.
 
 - Definitely not, he has a hint of sarcasm in his voice so you can tell hes joking. he probably understands that it was a problem with the face recognition software and not purposely implemented.
 
 ### How do you think this happened?
 
-- HP probably only tested white people or people with lighter skin tones, so they did not recognize that the software is racist.
+- HP probably only tested white people or people with lighter skin tones, so they did not recognize that their software is racist.
 
 ### Is this harmful? Was it intended to be harmful or exclude?
 
@@ -75,17 +97,34 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 ### What would you or should you do to produce a better outcome?
 
-- Fix the software and refund people.
+- Fix the software and refund people in exchange for their computer that they had already purchased.
 
 # 5.4
 
-## Q1, CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+## Notes
+
+### Q, We have all experienced Crowdsourcing by using external data through API’s, namely RapidAPI. This data has influenced how we code and shown possibilities in obtaining and analyzing data. Discuss APIs you have used.
+
+- The only API I have come utilized is RapidAPI which I used last trimester in my Create Performance Task.
+
+### Q, We have all participated in code Crowdsourcing by using GitHub. Many of you have forked from the Teacher repository, or exchanged code with fellow students. Not only can we analyze GitHub code, but we can obtain profiles and history about the persons coding history. What is the biggest discovery you have found in GitHub?
+
+- In my opinion the greatest discovery I have found in github is forking a repository. this is a rather basic concept but It allows for me to create what I call a Test repository, this allows me to test my code without breaking the file.
+
+### Q, Kaggle datasets for code and science exploration. The avenue of data points us youtube or netflix channels. Analyzing crowd data helps us make decisions. Exam top 10 to 20. Did you see anything interesting?
+
+- Im not sure
+
+ ## Hacks
+
+
+### Q1, CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
 
 - I call my idea "Student-Led Solutions to School Challenges." The idea is to encourage students to come up with innovative and practical solutions to common challenges faced in school, such as school safety, bullying, improving the school environment, etc; This crowdsource initiative can empower students to take an active role in improving Del Norte, while also developing critical skills such as problem-solving, collaboration, and leadership.
 
 - We could do this by;
 Provide training and resources to help students understand the crowdsource process, including how to develop and present their ideas effectively, Then create an online platform where students can submit their ideas, comment, and vote on each other's submissions.
 
-## Q2, What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+### Q2, What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
 
 - This could be a possibility, with my project being an arcade we could implement a commenting system or create a discord to help provide feedback on the games/website. This would allow us to improve our project if open to a large audience which can be easily created through outsourcing our social media.
