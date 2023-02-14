@@ -55,7 +55,7 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 - At Del Norte Specifically these barriers can include outdated technology infrastructure, limited access to technology resources, and a lack of teacher training and support for digital learning; Elsewhere would probably have similar problems.
 
-# 5.3 
+# 5.3 Computer Bias
 
 ## Notes
 
@@ -99,7 +99,7 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 - Fix the software and refund people in exchange for their computer that they had already purchased.
 
-# 5.4
+# 5.4 CrowdSourcing
 
 ## Notes
 
