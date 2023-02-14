@@ -64,7 +64,7 @@ Empowering oneself in a digital world involves taking control of one's digital p
 ### Q Google “What age groups use Facebook” vs “… TikTok”? What does the data say? Is there purposeful exclusion in these platforms? Is it harmful? Should it be corrected? Is it good business?
 
 - Typically you would see an older audience using Facebook nowadays, as it is an older social media platform, specifically ages 30-50.
-- In Tiktok you would typically see ages 10-19 because it is a newer search engine and gives easy access to content and more enjoyable for the younger generation than you would see on tiktok.
+- In Tiktok you would typically see ages 10-19 because it is a newer search engine and gives easy access to content and more enjoyable for the younger generation than you would see on Tiktok.
 - I do not believe that there is any purposeful exclusion in these platforms because the more people for the app te better for them, so I don't see why this would be the case. I believe that it is more of a generational gap and more advanced media and isn't harmful.
 
 ### Why do virtual assistants have female voices? Amazon, Alexa Google, Apple Siri. Was this purposeful? Is it harmful? Should it be corrected? Is it good business?
