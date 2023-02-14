@@ -115,7 +115,7 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 - Im not sure
 
- ## Hacks
+## Hacks
 
 
 ### Q1, CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
