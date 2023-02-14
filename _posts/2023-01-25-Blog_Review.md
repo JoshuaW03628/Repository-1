@@ -64,12 +64,12 @@ Empowering oneself in a digital world involves taking control of one's digital p
 ### Q Google “What age groups use Facebook” vs “… TikTok”? What does the data say? Is there purposeful exclusion in these platforms? Is it harmful? Should it be corrected? Is it good business?
 
 - Typically you would see an older audience using Facebook nowadays, as it is an older social media platform, specifically ages 30-50.
-- In tiktok you would typically see ages 10-19 because it is a newer search engine and gives easy access to content and more enjoyable for the younger generation than you would see on tiktok.
+- In Tiktok you would typically see ages 10-19 because it is a newer search engine and gives easy access to content and more enjoyable for the younger generation than you would see on tiktok.
 - I do not believe that there is any purposeful exclusion in these platforms because the more people for the app te better for them, so I don't see why this would be the case. I believe that it is more of a generational gap and more advanced media and isn't harmful.
 
 ### Why do virtual assistants have female voices? Amazon, Alexa Google, Apple Siri. Was this purposeful? Is it harmful? Should it be corrected? Is it good business?
 
-- According to BBC.com, "you might find feminine synthesised voices to be more common than masculine ones. But why? It's partly down to the fact that companies spent decades acquiring many more recordings of women's voices than of men's." Personally I believe that the reason for the gathering of women's voices is because they are softer and more smooth.
+- According to BBC.com, "you might find feminine synthesized voices to be more common than masculine ones. But why? It's partly down to the fact that companies spent decades acquiring many more recordings of women's voices than of men's." Personally I believe that the reason for the gathering of women's voices is because they are softer and more smooth.
 
 - This is probably purposeful but I don't believe that it is harmful because at the end of the day it is an AI and there are features to switch the voices if desired. I don't believe it needs to be corrected and to me it is good business.
 
@@ -120,7 +120,7 @@ Empowering oneself in a digital world involves taking control of one's digital p
 
 ### Q1, CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
 
-- I call my idea "Student-Led Solutions to School Challenges." The idea is to encourage students to come up with innovative and practical solutions to common challenges faced in school, such as school safety, bullying, improving the school environment, etc; This crowdsource initiative can empower students to take an active role in improving Del Norte, while also developing critical skills such as problem-solving, collaboration, and leadership.
+- I call my idea "Student Solutions to School Challenges." The idea is to encourage students to come up with innovative and practical solutions to challenges faced in school, such as school safety, bullying, improving the school environment, etc; This crowdsource initiative can empower students to take an active role in improving Del Norte, while also developing critical skills such as problem-solving, collaboration, and leadership.
 
 - We could do this by;
 Provide training and resources to help students understand the crowdsource process, including how to develop and present their ideas effectively, Then create an online platform where students can submit their ideas, comment, and vote on each other's submissions.
@@ -137,7 +137,11 @@ Provide training and resources to help students understand the crowdsource proce
 ### Q1,When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in your personal blog.
 
 ### A1
+
 - Software licenses and options are agreements between the software creator and the user that dictate how the software can be used, distributed, and modified. The most common types of software licenses MIT, GNU, Etc. With an MIT one must credit your work if they wish to look at it, for a GNU all you information is free to everyone.
+
+- The difference is;
+The GNU GPL is explicit about the patent grant an author would be giving when the code (or derivative work) is distributed, the MIT license does not discuss patents. Moreover, the GPL license impacts derivative works, but the MIT license does not.
 
 ### Q2, In your blog, summarize the discussions and personal analysis on Software Licenses/Options, Digital Rights, and other Legal and Ethical thoughts from this College Board topic.
 
@@ -147,9 +151,9 @@ Provide training and resources to help students understand the crowdsource proce
 
 - Digital rights refer to the rights of individuals and companies to control the distribution and use of their digital content, including music, videos, software, and other digital media. This often involves the use of digital rights management (DRM) technologies to restrict unauthorized copying and sharing of the content.
 
-- In terms of legal and ethical considerations, it is important to respect the terms of software licenses and to properly attribute the creators of digital content. Failure to do so can result in legal action and damage to one's reputation. Additionally, the use of DRM technologies to restrict the rights of consumers has been a controversial issue, with some arguing that it unfairly limits their ability to use and enjoy the content they have purchased.
+- In terms of legal and ethical considerations, it is important to respect the terms of software licenses and to properly attribute the creators of digital content. Failure to do so can result in legal action and damage to one's reputation. 
 
-- When it comes to personal analysis, it is important to consider one's own values and beliefs when making decisions about software licenses and digital rights. Some may prioritize the freedom to modify and share software, while others may value the protection of intellectual property rights. It is also important to consider the impact of these decisions on the broader society and the technology industry as a whole.
+- When it comes to personal analysis, it is important to consider one's own values and beliefs when making decisions about software licenses and digital rights. Some may prioritize the freedom to modify and share software, while others may value the protection of intellectual property rights.
 
 
 # 5.6 Safe Computing
@@ -165,13 +169,13 @@ It's a little weird seeing that anyone can access personal information on me, bu
 A good Password is something that is long, contains numbers and special keys and is not related to you at all. Bad would be Vice. Another step that can be used in authentication is 2 factor authentication, maybe sending you an email.
 ### Q4, Try to describe Symmetric and Asymmetric encryption.
 ### A4;
-- Symmetric encryption, also known as shared secret encryption, uses the same key for both encryption and decryption. In other words, the sender and the recipient of the encrypted message both have access to the same secret key and use it to encrypt and decrypt the message. Symmetric encryption is fast and efficient, but it has a major drawback: the key must be securely shared between the sender and the recipient, which can be a challenge in practice.
+- Symmetric encryption, also known as shared secret encryption, uses the same key for both encryption and decryption. In other words, the sender and the recipient of the encrypted message both have access to the same secret key and use it to encrypt and decrypt the message.
 
-- Asymmetric encryption, also known as public key encryption, uses two different keys for encryption and decryption: a public key, which is used for encryption, and a private key, which is used for decryption. The public key can be freely shared with anyone, but the private key must be kept secret. The recipient of the encrypted message uses their private key to decrypt the message, while the sender uses the recipient's public key to encrypt it. Asymmetric encryption is more secure than symmetric encryption because it eliminates the need to securely share a secret key. However, it is also slower and more computationally expensive.
+- Asymmetric encryption, also known as public key encryption, uses two different keys for encryption and decryption: a public key, which is used for encryption, and a private key, which is used for decryption. The public key can be freely shared with anyone, but the private key must be kept secret. The recipient of the encrypted message uses their private key to decrypt the message, while the sender uses the recipient's public key to encrypt it.
 
 ### Q5, Provide an example of encryption we used in AWS deployment.
 ### A5;
-In AWS deployment we used Asymmetric encryption.
+In AWS deployment we used SSl encryption. And this encryption uses Symmetric and asymetric encryption.
 ### Q6, Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
 ### A6;
 I haven't really "learned the hard way" to my knowledge. However just recently my brother got identity fraud from someone posing as our personal bank, he got $6,000 dollars taken from him.
