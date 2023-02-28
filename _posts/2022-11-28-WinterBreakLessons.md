@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: pre tree notes
 categories: [Pre-Tree]
 title:  Pre tree

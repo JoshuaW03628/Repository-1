@@ -2,7 +2,7 @@
 keywords: fastai
 title: Lists & Dictionaries
 nb_path: _notebooks/2022-08-30-Notetaker.ipynb
-layout: notebook
+layout: base
 categories: [Posts]
 permalink: /posts/notetaker
 ---

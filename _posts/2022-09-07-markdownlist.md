@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Learning from ryan notes
 categories: [Posts]
 title: Jotting Notes

@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: pre tree grades
 categories: [Pre-Tree]
 title:  Pre Tree Grades

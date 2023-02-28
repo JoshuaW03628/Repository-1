@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Post Using a Table
 categories: [Posts]
 title: Making a Table

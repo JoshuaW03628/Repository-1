@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Reflecting on Videos
 categories: [Posts]
 title:  Teams Reflection

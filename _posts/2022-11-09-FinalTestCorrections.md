@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: My time at night at the museum
 categories: [Posts]
 title:  Final Corrections 1

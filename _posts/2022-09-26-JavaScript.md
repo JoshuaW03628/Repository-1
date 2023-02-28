@@ -2,7 +2,7 @@
 keywords: fastai
 title: JavaScript Data Input
 nb_path: _notebooks/2022-09-26-JavaScript.ipynb
-layout: notebook
+layout: base
 categories: [Posts]
 ---
 

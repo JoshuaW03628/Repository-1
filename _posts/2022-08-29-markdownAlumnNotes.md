@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Notes I took at the Alumni Gathering
 categories: [Posts]
 title: Alumni Notes

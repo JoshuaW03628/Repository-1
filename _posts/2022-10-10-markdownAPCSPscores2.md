@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Brainstorm 
 categories: [Posts]
 title: AP classroom scores week 2

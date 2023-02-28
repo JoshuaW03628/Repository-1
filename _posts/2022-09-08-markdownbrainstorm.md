@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Brainstorm for code.org
 categories: [Posts]
 title: Week 3 Brainstorm

@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Correcting Mistakes
 categories: [Posts]
 title: AP Classroom Week 2 Test Corrections.
