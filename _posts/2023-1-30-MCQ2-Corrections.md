@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Correctimundo
 categories: [Pre-Tree]
 title:  Corrections

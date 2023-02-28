@@ -1,6 +1,6 @@
 ---
 toc: false
-layout: post
+layout: base
 description: Blog on CPT
 categories: [Pre-Tree]
 title:  Project Blog
