@@ -180,8 +180,8 @@
         ,"post16": {
             "title": "TESTING KERNELS",
             "content": "console.log(&quot;hi&quot;) . hi .",
-            "url": "https://joshuaw03628.github.io/Repository-1/posts/2022/11/18/JupyterTest.html",
-            "relUrl": "/posts/2022/11/18/JupyterTest.html",
+            "url": "https://joshuaw03628.github.io/Repository-1/notebooks/jupytertest",
+            "relUrl": "/notebooks/jupytertest",
             "date": " • Nov 18, 2022"
         }
         
@@ -191,8 +191,8 @@
         ,"post17": {
             "title": "TESTING KERNELS",
             "content": "echo Hello . Hello .",
-            "url": "https://joshuaw03628.github.io/Repository-1/posts/2022/11/18/BashTest.html",
-            "relUrl": "/posts/2022/11/18/BashTest.html",
+            "url": "https://joshuaw03628.github.io/Repository-1/notebooks/bashtest",
+            "relUrl": "/notebooks/bashtest",
             "date": " • Nov 18, 2022"
         }
         
