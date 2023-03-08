@@ -5,10 +5,11 @@ title: TESTING KERNELS
 toc: true 
 badges: true
 comments: true
-categories: [Posts]
+categories: [Notebooks]
 image: images/chart-preview.png
+permalink: /notebooks/jupytertest
 nb_path: _notebooks/2022-11-18-JupyterTest.ipynb
-layout: base
+layout: notebook
 ---
 
 <!--
@@ -27,7 +28,7 @@ layout: base
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;hi&quot;</span><span class="p">)</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;hi&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
