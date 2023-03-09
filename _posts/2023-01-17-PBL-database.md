@@ -1,6 +1,6 @@
 ---
 keywords: fastai
-description: The project-based learning objective is to create a purposeful backend, something that can't be done in frontend via JavaScript.  A database and storing persistent data is a primary focus of most backend systems.  An SQLite Database using the Python SQLAlchemy framework will be the outcome of this lesson.  As students learn databases using SQLAlchemy, they will also learn about Object-oriented programming in Python.
+description: The project-based learning objective is to create a purposeful backend, something that can't be done in frontend via JavaScript.
 title: Database/Model, Backend, OOP, Python
 badges: false
 toc: true
