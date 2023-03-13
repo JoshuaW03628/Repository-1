@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>2.2-2.3 Notes and Answers | Josh’s blog</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="2.2-2.3 Notes and Answers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Notes on Lessons 2.2 and 2.3." />
+<meta property="og:description" content="Notes on Lessons 2.2 and 2.3." />
+<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/posts/2023/03/10/2.2-2.3-Notes&Answers.html" />
+<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/posts/2023/03/10/2.2-2.3-Notes&Answers.html" />
+<meta property="og:site_name" content="Josh’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-10T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="2.2-2.3 Notes and Answers" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T00:00:00-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Notes on Lessons 2.2 and 2.3.","headline":"2.2-2.3 Notes and Answers","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/posts/2023/03/10/2.2-2.3-Notes&Answers.html"},"url":"https://joshuaw03628.github.io/Repository-1/posts/2023/03/10/2.2-2.3-Notes&Answers.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Repository-1/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://joshuaw03628.github.io/Repository-1/feed.xml" title="Josh's blog" /><link rel="shortcut icon" type="image/x-icon" href="/Repository-1/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Repository-1/">Josh&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Repository-1/_pages/2022-08-29-markdownvocab.html">Vocab Page</a><a class="page-link" href="/Repository-1/about/">About Me</a><a class="page-link" href="/Repository-1/search/">Search</a><a class="page-link" href="/Repository-1/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h1 id="22-notes">2.2 Notes</h1>
+
+<h2 id="pathlib">pathlib</h2>
+
+<h4 id="what-are-commands-you-use-in-terminal-to-access-files">What are commands you use in terminal to access files?</h4>
+
+<ul>
+  <li>
+    <p>cd (Change Directory): This command is used to change the current directory to another directory. It is commonly used to navigate through the file system. For example, to change the directory to the Desktop folder, you would enter cd ~/Desktop.</p>
+  </li>
+  <li>
+    <p>ls (List): This command is used to list the contents of a directory. It shows you the files and folders that are located in the current directory. For example, to list the files and folders in the Desktop folder, you would enter ls ~/Desktop.</p>
+  </li>
+</ul>
+
+<h4 id="what-are-the-command-you-use-in-windows-terminal-to-access-files">What are the command you use in Windows terminal to access files?</h4>
+
+<ul>
+  <li>
+    <p>cd (Change Directory): This command is used to change the current directory to another directory. It is commonly used to navigate through the file system. For example, to change the directory to the Desktop folder, you would enter cd C:\Users\username\Desktop.</p>
+  </li>
+  <li>
+    <p>dir (Directory): This command is used to list the contents of a directory. It shows you the files and folders that are located in the current directory. For example, to list the files and folders in the Desktop folder, you would enter dir C:\Users\username\Desktop.</p>
+  </li>
+</ul>
+
+<h4 id="what-are-some-of-the-major-differences">What are some of the major differences?</h4>
+
+<ul>
+  <li>
+    <p>Syntax: The syntax of the commands used in the Windows terminal is often different from that used in other operating systems. For example, the command to change directory in Windows is cd, while in Linux it is cd as well. However, the syntax for specifying the path to the directory is different. In Windows, you use backslashes () to separate directories, while in Linux and macOS, you use forward slashes (/).</p>
+  </li>
+  <li>
+    <p>Options: The options available for the commands used in the Windows terminal are often different from those used in other operating systems. For example, the ls command in Linux has options like -l to display detailed information about files, while in Windows, the equivalent command dir uses the option /a to display hidden files.</p>
+  </li>
+</ul>
+
+<h2 id="learning-pathlib-ipython">Learning (Pathlib, IPython)</h2>
+
+<h4 id="why-is-path-a-big-deal-when-working-with-images">Why is path a big deal when working with images?</h4>
+
+<p>Paths are important when working with images because they specify the location of the image file on the computer’s file system. When you open or save an image file in an image editing software or any other program that deals with images, the program needs to know the path to the image file in order to access it.</p>
+
+<h4 id="how-does-the-meta-data-source-and-label-relate-to-unit-5-topics">How does the meta data source and label relate to Unit 5 topics?</h4>
+
+<p>In the context of the College Board’s AP Computer Science Principles course, Unit 5 covers the topic of data and information. The concept of metadata is relevant to this unit because it is a type of data that provides information about other data.</p>
+
+<p>Metadata is used to describe the characteristics and properties of data, such as the author, date created, file format, and other relevant information. In the context of images, metadata can include information such as the camera settings used to capture the image, the date and time the image was taken, and the location where the image was taken.</p>
+
+<p>The use of metadata is important in many different areas of computer science, including data management, search engines, and digital forensics. In addition, metadata is relevant to the College Board’s AP CSP course because it is an important aspect of the data and information unit.</p>
+
+<h4 id="look-up-ipython-describe-why-this-is-interesting-in-jupyter-notebooks-for-both-pandas-and-images">Look up IPython, describe why this is interesting in Jupyter Notebooks for both Pandas and Images?</h4>
+
+<p>Overall, IPython is an interesting tool in Jupyter Notebooks because it provides an interactive, flexible, and powerful environment for working with data and images in Python. By using IPython in Jupyter Notebooks, you can easily explore, manipulate, and visualize data and images, which can be particularly useful in data analysis, machine learning, and computer vision tasks.</p>
+
+<h2 id="base-64">Base 64</h2>
+
+<p>Base64 is a way of encoding binary data (such as images, audio files, or other non-textual data) as ASCII text. It works by converting every 3 bytes of binary data into 4 bytes of ASCII text. Each group of 3 bytes is split into 4 6-bit chunks, which are then represented as characters from a set of 64 characters (hence the name “Base64”).</p>
+
+<h4 id="translate-the-first-3-letters-of-your-name-into-base-64">Translate the First 3 Letters of Your Name Into Base 64.</h4>
+
+<p>J = 01001010
+O = 01001111
+S = 01010011</p>
+
+<h2 id="io-bytesio">io, BytesIO</h2>
+
+<h4 id="where-have-you-been-a-consumer-of-buffering">Where have you been a consumer of buffering?</h4>
+
+<p>Streaming Services Like Netflix, Hulu, etc.</p>
+
+<h4 id="from-your-consumer-experience-what-effects-have-you-experienced-from-buffering">From your consumer experience, what effects have you experienced from buffering?</h4>
+
+<p>When you start watching a video, the video player will download a small part of the video and store it in a buffer before playing it. As you continue to watch the video, the player will download more of the video and store it in the buffer. This ensures that there is always enough video data available to play smoothly, even if there are fluctuations in your internet connection speed.</p>
+
+<p>If there is a temporary slowdown in your internet connection, the video player can continue playing from the buffer instead of pausing or buffering, which can interrupt the viewing experience. This is an example of how buffering can help ensure a smooth, uninterrupted streaming experience.</p>
+
+<h4 id="how-do-these-effects-apply-to-images">How do these effects apply to images?</h4>
+
+<p>Buffering can also apply to images in similar ways. For example, when you open an image on a computer or mobile device, the image viewer application may use buffering to store a portion of the image in memory before displaying it on the screen. This allows for faster image rendering and smoother scrolling or zooming within the image.</p>
+
+<h2 id="data-structures-imperative-programming-style-and-working-with-images">Data Structures, Imperative Programming Style, and working with Images</h2>
+
+<h4 id="does-this-code-seem-like-a-series-of-steps-are-being-performed">Does this code seem like a series of steps are being performed?</h4>
+
+<p>Yes, the code seems to be a series of steps being performed.</p>
+
+<h4 id="describe-grey-scale-algorithm-in-english-or-pseudo-code">Describe Grey Scale algorithm in English or Pseudo code?</h4>
+
+<p>The Grey Scale algorithm converts a color image into a grayscale image by taking each pixel of the image, calculating the average of the red, green, and blue values for that pixel, and setting each of the red, green, and blue values to the average value. The resulting pixel has the same intensity value for each color channel, resulting in a grayscale image.</p>
+
+<h4 id="describe-scale-image-what-is-before-and-after-on-pixels-in-three-images">Describe scale image? What is before and after on pixels in three images?</h4>
+
+<p>The scale_image function takes a PIL (Python Imaging Library) image as an input and scales it to a base width of 320 pixels while preserving the aspect ratio. It returns the scaled image as a PIL image object.</p>
+
+<h4 id="is-scale-image-a-type-of-compression-if-so-line-it-up-with-college-board-terms-described">Is scale image a type of compression? If so, line it up with College Board terms described?</h4>
+
+<p>Scaling an image is not a type of compression, but it can be used as a pre-processing step before compression. Scaling involves resizing the image to a smaller or larger size while maintaining the aspect ratio. This can reduce the amount of data needed to represent the image but does not involve any loss of information.</p>
+
+<p>In College Board terms, scaling an image could be considered a form of pre-processing or transformation that can be applied before compression. This is similar to other pre-processing steps like smoothing, filtering, or feature extraction that may be used before applying a compression algorithm to reduce the amount of data needed to represent an image or improve the performance of the compression algorithm.</p>
+
+<h1 id="22-hacks">2.2 Hacks</h1>
+
+<h1 id="23-notes">2.3 Notes</h1>
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Repository-1/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://joshuaw03628.github.io/Repository-1/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/Repository-1/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/nighthawkcoders" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/Repository-1/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/NighthawkCoding" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/Repository-1/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q" target="_blank" title="youtube">
+    <svg class="svg-icon grey">
+      <use xlink:href="/Repository-1/assets/minima-social-icons.svg#youtube"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
