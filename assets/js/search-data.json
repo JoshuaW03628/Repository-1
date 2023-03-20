@@ -25,9 +25,9 @@
     
         ,"post2": {
             "title": "Title",
-            "content": "LALALA .",
-            "url": "https://joshuaw03628.github.io/Repository-1/2023/03/14/2.4-Hacks.html",
-            "relUrl": "/2023/03/14/2.4-Hacks.html",
+            "content": "Jupyter Notebook With Table. . import pandas as pd # Read CSV file into a Pandas DataFrame df = pd.read_csv(&#39;/Users/josh/Downloads/archive/player_data.csv&#39;) # Display the DataFrame print(df.head()) . name year_start year_end position height weight 0 Alaa Abdelnaby 1991 1995 F-C 6-10 240.0 1 Zaid Abdul-Aziz 1969 1978 C-F 6-9 235.0 2 Kareem Abdul-Jabbar 1970 1989 C 7-2 225.0 3 Mahmoud Abdul-Rauf 1991 2001 G 6-1 162.0 4 Tariq Abdul-Wahad 1998 2003 F 6-6 223.0 birth_date college 0 June 24, 1968 Duke University 1 April 7, 1946 Iowa State University 2 April 16, 1947 University of California, Los Angeles 3 March 9, 1969 Louisiana State University 4 November 3, 1974 San Jose State University . print(df.describe()) . year_start year_end weight count 4550.000000 4550.000000 4544.000000 mean 1985.076264 1989.272527 208.908011 std 20.974188 21.874761 26.268662 min 1947.000000 1947.000000 114.000000 25% 1969.000000 1973.000000 190.000000 50% 1986.000000 1992.000000 210.000000 75% 2003.000000 2009.000000 225.000000 max 2018.000000 2018.000000 360.000000 . Gathering info on all people in the csv file and giving the max, min, mean and percentiles for weight in lbs. .",
+            "url": "https://joshuaw03628.github.io/Repository-1/2023/03/14/2.4-Notebook.html",
+            "relUrl": "/2023/03/14/2.4-Notebook.html",
             "date": " • Mar 14, 2023"
         }
         
