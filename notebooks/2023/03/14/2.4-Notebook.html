@@ -163,32 +163,6 @@ window.onload = wrap_img;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>                  name  year_start  year_end position height  weight  \
-0       Alaa Abdelnaby        1991      1995      F-C   6-10   240.0   
-1      Zaid Abdul-Aziz        1969      1978      C-F    6-9   235.0   
-2  Kareem Abdul-Jabbar        1970      1989        C    7-2   225.0   
-3   Mahmoud Abdul-Rauf        1991      2001        G    6-1   162.0   
-4    Tariq Abdul-Wahad        1998      2003        F    6-6   223.0   
-
-         birth_date                                college  
-0     June 24, 1968                        Duke University  
-1     April 7, 1946                  Iowa State University  
-2    April 16, 1947  University of California, Los Angeles  
-3     March 9, 1969             Louisiana State University  
-4  November 3, 1974              San Jose State University  
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
@@ -206,28 +180,6 @@ window.onload = wrap_img;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>        year_start     year_end       weight
-count  4550.000000  4550.000000  4544.000000
-mean   1985.076264  1989.272527   208.908011
-std      20.974188    21.874761    26.268662
-min    1947.000000  1947.000000   114.000000
-25%    1969.000000  1973.000000   190.000000
-50%    1986.000000  1992.000000   210.000000
-75%    2003.000000  2009.000000   225.000000
-max    2018.000000  2018.000000   360.000000
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
@@ -239,6 +191,112 @@ max    2018.000000  2018.000000   360.000000
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sqlite3</span>
+
+<span class="c1"># Create a connection to the database</span>
+<span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s2">"nba.db"</span><span class="p">)</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+<span class="c1"># Create the table if it doesn't exist</span>
+<span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">'''CREATE TABLE IF NOT EXISTS players</span>
+<span class="s1">             (name text, year_start text, year_end text)'''</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">create_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"INSERT INTO players (name, year_start, year_end) VALUES (?, ?, ?)"</span><span class="p">,</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">))</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Player data implemented"</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">read_players</span><span class="p">():</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"SELECT * FROM players"</span><span class="p">)</span>
+    <span class="n">rows</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">read_player</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"SELECT * FROM players WHERE name=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">name</span><span class="p">,))</span>
+    <span class="n">row</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">row</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Player not found."</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">update_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"UPDATE players SET year_start=?, year_end=? WHERE name=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">,</span> <span class="n">name</span><span class="p">))</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Player updated successfully."</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">delete_player</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"DELETE FROM players WHERE name=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">name</span><span class="p">,))</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Player deleted successfully."</span><span class="p">)</span>
+
+<span class="c1"># Get user input to decide which function to use</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 1 to create a player."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 2 to read all players."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 3 to read a specific player."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 4 to update a player."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 5 to delete a player."</span><span class="p">)</span>
+<span class="n">choice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Choice: "</span><span class="p">)</span>
+
+<span class="c1"># Call the appropriate function based on user input</span>
+<span class="k">if</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"1"</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the name: "</span><span class="p">)</span>
+    <span class="n">year_start</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the year_start: "</span><span class="p">)</span>
+    <span class="n">year_end</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the year_end: "</span><span class="p">)</span>
+    <span class="n">create_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"2"</span><span class="p">:</span>
+    <span class="n">read_players</span><span class="p">()</span>
+<span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"3"</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the player name: "</span><span class="p">)</span>
+    <span class="n">read_player</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"4"</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the name: "</span><span class="p">)</span>
+    <span class="n">year_start</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the new year_start: "</span><span class="p">)</span>
+    <span class="n">year_end</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the new year_end: "</span><span class="p">)</span>
+    <span class="n">update_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"5"</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the name: "</span><span class="p">)</span>
+    <span class="n">delete_player</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Invalid choice."</span><span class="p">)</span>
+
+<span class="c1"># Close the database connection</span>
+<span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter 1 to create a player.
+Enter 2 to read all players.
+Enter 3 to read a specific player.
+Enter 4 to update a player.
+Enter 5 to delete a player.
+('Wilt Chamberlain', '1949', '1960')
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 

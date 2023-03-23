@@ -142,107 +142,70 @@ window.onload = wrap_img;
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sqlite3</span>
 
-<span class="c1"># Create a connection to the SQLite database</span>
-<span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s2">"books.db"</span><span class="p">)</span>
-
-<span class="c1"># Create a cursor object to interact with the database</span>
-<span class="n">c</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
-
-<span class="c1"># Create the books table</span>
-<span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"""CREATE TABLE books (</span>
-<span class="s2">                id INTEGER PRIMARY KEY,</span>
-<span class="s2">                title TEXT,</span>
-<span class="s2">                author TEXT,</span>
-<span class="s2">                published INTEGER</span>
-<span class="s2">            )"""</span><span class="p">)</span>
-
-<span class="c1"># Commit the changes to the database</span>
-<span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
-
-<span class="c1"># Close the connection to the database</span>
-<span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sqlite3</span>
-
 <span class="c1"># Create a connection to the database</span>
-<span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s2">"books.db"</span><span class="p">)</span>
+<span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s2">"/Users/josh/Repository-1/_notebooks/instance/nba.db"</span><span class="p">)</span>
 <span class="n">c</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
 
 <span class="c1"># Create the table if it doesn't exist</span>
-<span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">'''CREATE TABLE IF NOT EXISTS books</span>
-<span class="s1">             (title text, author text, published text)'''</span><span class="p">)</span>
+<span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">'''CREATE TABLE IF NOT EXISTS players</span>
+<span class="s1">             (name text, year_start text, year_end text)'''</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">create_book</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">,</span> <span class="n">published</span><span class="p">):</span>
-    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"INSERT INTO books (title, author, published) VALUES (?, ?, ?)"</span><span class="p">,</span> <span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">,</span> <span class="n">published</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">create_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"INSERT INTO players (name, year_start, year_end) VALUES (?, ?, ?)"</span><span class="p">,</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">))</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Book created successfully."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Player data implemented"</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">read_books</span><span class="p">():</span>
-    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"SELECT * FROM books"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">read_players</span><span class="p">():</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"SELECT * FROM players"</span><span class="p">)</span>
     <span class="n">rows</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
     <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">read_book</span><span class="p">(</span><span class="n">title</span><span class="p">):</span>
-    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"SELECT * FROM books WHERE title=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">title</span><span class="p">,))</span>
+<span class="k">def</span> <span class="nf">read_player</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"SELECT * FROM players WHERE name=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">name</span><span class="p">,))</span>
     <span class="n">row</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">fetchone</span><span class="p">()</span>
     <span class="k">if</span> <span class="n">row</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">"Book not found."</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Player not found."</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">update_book</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">,</span> <span class="n">published</span><span class="p">):</span>
-    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"UPDATE books SET author=?, published=? WHERE title=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">author</span><span class="p">,</span> <span class="n">published</span><span class="p">,</span> <span class="n">title</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">update_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"UPDATE players SET year_start=?, year_end=? WHERE name=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">,</span> <span class="n">name</span><span class="p">))</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Book updated successfully."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Player updated successfully."</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">delete_book</span><span class="p">(</span><span class="n">title</span><span class="p">):</span>
-    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"DELETE FROM books WHERE title=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">title</span><span class="p">,))</span>
+<span class="k">def</span> <span class="nf">delete_player</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">"DELETE FROM players WHERE name=?"</span><span class="p">,</span> <span class="p">(</span><span class="n">name</span><span class="p">,))</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Book deleted successfully."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Player deleted successfully."</span><span class="p">)</span>
 
 <span class="c1"># Get user input to decide which function to use</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 1 to create a book."</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 2 to read all books."</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 3 to read a specific book."</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 4 to update a book."</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 5 to delete a book."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 1 to create a player."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 2 to read all players."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 3 to read a specific player."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 4 to update a player."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 5 to delete a player."</span><span class="p">)</span>
 <span class="n">choice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Choice: "</span><span class="p">)</span>
 
 <span class="c1"># Call the appropriate function based on user input</span>
 <span class="k">if</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"1"</span><span class="p">:</span>
-    <span class="n">title</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the title: "</span><span class="p">)</span>
-    <span class="n">author</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the author: "</span><span class="p">)</span>
-    <span class="n">published</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the year published: "</span><span class="p">)</span>
-    <span class="n">create_book</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">,</span> <span class="n">published</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the name: "</span><span class="p">)</span>
+    <span class="n">year_start</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the year_start: "</span><span class="p">)</span>
+    <span class="n">year_end</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the year_end: "</span><span class="p">)</span>
+    <span class="n">create_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">)</span>
 <span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"2"</span><span class="p">:</span>
-    <span class="n">read_books</span><span class="p">()</span>
+    <span class="n">read_players</span><span class="p">()</span>
 <span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"3"</span><span class="p">:</span>
-    <span class="n">title</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the title: "</span><span class="p">)</span>
-    <span class="n">read_book</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the player name: "</span><span class="p">)</span>
+    <span class="n">read_player</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
 <span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"4"</span><span class="p">:</span>
-    <span class="n">title</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the title: "</span><span class="p">)</span>
-    <span class="n">author</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the new author: "</span><span class="p">)</span>
-    <span class="n">published</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the new year published: "</span><span class="p">)</span>
-    <span class="n">update_book</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">,</span> <span class="n">published</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the name: "</span><span class="p">)</span>
+    <span class="n">year_start</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the new year_start: "</span><span class="p">)</span>
+    <span class="n">year_end</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the new year_end: "</span><span class="p">)</span>
+    <span class="n">update_player</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">year_start</span><span class="p">,</span> <span class="n">year_end</span><span class="p">)</span>
 <span class="k">elif</span> <span class="n">choice</span> <span class="o">==</span> <span class="s2">"5"</span><span class="p">:</span>
-    <span class="n">title</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the title: "</span><span class="p">)</span>
-    <span class="n">delete_book</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter the name: "</span><span class="p">)</span>
+    <span class="n">delete_player</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"Invalid choice."</span><span class="p">)</span>
 
@@ -260,12 +223,13 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Enter 1 to create a book.
-Enter 2 to read all books.
-Enter 3 to read a specific book.
-Enter 4 to update a book.
-Enter 5 to delete a book.
-('Mr.Mort;Comsci', 'Mr.Mort', '2023')
+<pre>Enter 1 to create a player.
+Enter 2 to read all players.
+Enter 3 to read a specific player.
+Enter 4 to update a player.
+Enter 5 to delete a player.
+('Wilt Chamberlain', '1949', '1960')
+('Spud Webb', '1980', '1989')
 </pre>
 </div>
 </div>
