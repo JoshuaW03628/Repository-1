@@ -1,9 +1,9 @@
 ---
 toc: false
 layout: base
-description: My time at night at the museum
+description: Agile Manifesto & Team Roles Tri 3
 categories: [Posts]
-title:  Night at the museum tri 2
+title:  Tri 3 Agile Manifest and Team Roles
 ---
 
 
