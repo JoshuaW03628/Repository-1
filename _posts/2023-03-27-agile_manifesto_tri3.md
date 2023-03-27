@@ -6,10 +6,7 @@ categories: [Posts]
 title:  Tri 3 Agile Manifest and Team Roles
 ---
 
-
-![photo]({{site.baseurl}}//Users/josh/Repository-1/images/agile_manifesto_tri_3.jpg)
-
-
+![Agile Manifesto](/images/agile_manifesto_tri_3.jpg)
 
 # Team Roles
 
