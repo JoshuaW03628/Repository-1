@@ -1,9 +1,9 @@
 ---
 toc: false
 layout: base
-description: Notes I took at the UC San Marcos lecture
+description: Team Lesson Plan in greater detail.
 categories: [Posts]
-title: UC San Marcos Extra Credit
+title: Lesson Plan
 ---
 
 
