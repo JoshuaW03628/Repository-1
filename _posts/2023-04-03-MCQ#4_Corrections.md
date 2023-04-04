@@ -7,7 +7,7 @@ title: MCQ Corrections
 ---
 
 
-![MCQ_4](/Users/josh/Repository-1/images/MCQ_4.png)
+![MCQ_4](/Users/josh/Repository-1/_posts/MCQ_4.png)
 
 
 ### Corrections:
