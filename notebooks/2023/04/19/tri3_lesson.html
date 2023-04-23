@@ -259,7 +259,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 </pre></div>
 
     </div>
@@ -285,22 +285,24 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a NumPy array of the heights of players in a basketball team</span>
-<span class="c1">#heights = np.array([192, 195, 193, 200, 211, 199, 201, 198, 184, 190, 196, 203, 208, 182, 207])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1">#Create a NumPy array of the heights of players in a basketball team</span>
+<span class="n">heights</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">192</span><span class="p">,</span> <span class="mi">195</span><span class="p">,</span> <span class="mi">193</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">211</span><span class="p">,</span> <span class="mi">199</span><span class="p">,</span> <span class="mi">201</span><span class="p">,</span> <span class="mi">198</span><span class="p">,</span> <span class="mi">184</span><span class="p">,</span> <span class="mi">190</span><span class="p">,</span> <span class="mi">196</span><span class="p">,</span> <span class="mi">203</span><span class="p">,</span> <span class="mi">208</span><span class="p">,</span> <span class="mi">182</span><span class="p">,</span> <span class="mi">207</span><span class="p">])</span>
 
 <span class="c1"># Calculate the percentile rank of each player's height</span>
-<span class="c1">#percentiles = np.percentile(heights, [25, 50, 75])</span>
+<span class="n">percentiles</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">heights</span><span class="p">,</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">75</span><span class="p">])</span>
 
 <span class="c1"># Print the results</span>
-<span class="c1">#print("The 25th percentile height is", percentiles[0], "cm.")</span>
-<span class="c1">#print("The 50th percentile height is", percentiles[1], "cm.")</span>
-<span class="c1">#print("The 75th percentile height is", percentiles[2], "cm.")</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The 25th percentile height is"</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">"cm."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The 50th percentile height is"</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">"cm."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The 75th percentile height is"</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s2">"cm."</span><span class="p">)</span>
 
 <span class="c1"># Determine the number of players who are in the top 10% tallest</span>
-<span class="c1">#top_10_percent = np.percentile(heights, 90)</span>
-<span class="c1">#tallest_players = heights[heights &gt;= top_10_percent]</span>
+<span class="n">top_10_percent</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">heights</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+<span class="n">tallest_players</span> <span class="o">=</span> <span class="n">heights</span><span class="p">[</span><span class="n">heights</span> <span class="o">&gt;=</span> <span class="n">top_10_percent</span><span class="p">]</span>
 
-<span class="c1">#print("There are", len(tallest_players), "players in the top 10% tallest.")</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"There are"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">tallest_players</span><span class="p">),</span> <span class="s2">"players in the top 10% tallest."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -326,24 +328,24 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import numpy as np</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="c1"># Create a NumPy array of the x</span>
-<span class="c1"># x = np.array([])</span>
+<span class="c1">#Create a NumPy array of the x</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span>
 
 <span class="c1"># Calculate the percentile rank of x</span>
-<span class="c1"># y = np.percentile(x, [1,2,3])</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
 
-<span class="c1"># Print the resultsz</span>
-<span class="c1"># print("", percentiles[0], "")</span>
-<span class="c1"># print("", percentiles[1], "")</span>
-<span class="c1"># print("", percentiles[2], "")</span>
+<span class="c1"># Print the results</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">,</span> <span class="n">percentiles</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s2">""</span><span class="p">)</span>
 
 <span class="c1"># Determine the number of players who are in the top 10% x</span>
-<span class="c1"># t = np.percentile(x, 90)</span>
-<span class="c1"># z = x[x &gt;= t]</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">90</span><span class="p">)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="n">x</span> <span class="o">&gt;=</span> <span class="n">t</span><span class="p">]</span>
 
-<span class="c1"># print("There are", len(z), "players in the top 10% (x).")</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"There are"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">z</span><span class="p">),</span> <span class="s2">"players in the top 10% (x)."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -406,14 +408,15 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load the CSV file into a Pandas DataFrame</span>
-<span class="c1">#df = pd.read_csv('/Users/josh/Repository-1/archive/nba_player_statistics.csv')</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="c1"># Load the CSV file into a Pandas DataFrame</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'/Users/josh/Repository-1/archive/nba_player_statistics.csv'</span><span class="p">)</span>
 <span class="c1"># Filter the DataFrame to only include stats for a specific player (in this case, Jimmy Butler)</span>
-<span class="c1">#player_name = 'Jimmy Butler'</span>
-<span class="c1">#player_stats = df[df['NAME'] == player_name]</span>
+<span class="n">player_name</span> <span class="o">=</span> <span class="s1">'Jimmy Butler'</span>
+<span class="n">player_stats</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'NAME'</span><span class="p">]</span> <span class="o">==</span> <span class="n">player_name</span><span class="p">]</span>
 <span class="c1"># Display the stats for the player</span>
-<span class="c1">#print(f"\nStats for {player_name}:")</span>
-<span class="c1">#print(player_stats[['PPG', 'RPG', 'APG']])</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Stats for </span><span class="si">{</span><span class="n">player_name</span><span class="si">}</span><span class="s2">:"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">player_stats</span><span class="p">[[</span><span class="s1">'PPG'</span><span class="p">,</span> <span class="s1">'RPG'</span><span class="p">,</span> <span class="s1">'APG'</span><span class="p">]])</span>
 </pre></div>
 
     </div>
@@ -442,18 +445,19 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#df = pd.read_csv('/Users/josh/Repository-1/archive/nba_player_statistics.csv')</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'/Users/josh/Repository-1/archive/nba_player_statistics.csv'</span><span class="p">)</span>
 <span class="c1"># Load CSV file into a Pandas DataFrame</span>
-<span class="c1">#player_name = input("Enter player name: ")</span>
+<span class="n">player_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter player name: "</span><span class="p">)</span>
 <span class="c1"># Get player name input from user</span>
-<span class="c1">#player_stats = df[df['NAME'] == player_name]</span>
+<span class="n">player_stats</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'NAME'</span><span class="p">]</span> <span class="o">==</span> <span class="n">player_name</span><span class="p">]</span>
 <span class="c1"># Filter the DataFrame to only include stats for the specified player</span>
-<span class="c1">#if player_stats.empty:</span>
-<span class="c1">#    print("No stats found for that player.")</span>
-<span class="c1">#else:</span>
+<span class="k">if</span> <span class="n">player_stats</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"No stats found for that player."</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
 <span class="c1"># Check if the player exists in the DataFrame</span>
-<span class="c1">#    print(f"\nStats for {player_name}:")</span>
-<span class="c1">#print(player_stats[['PPG', 'RPG', 'APG', 'P+R+A']])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Stats for </span><span class="si">{</span><span class="n">player_name</span><span class="si">}</span><span class="s2">:"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">player_stats</span><span class="p">[[</span><span class="s1">'PPG'</span><span class="p">,</span> <span class="s1">'RPG'</span><span class="p">,</span> <span class="s1">'APG'</span><span class="p">,</span> <span class="s1">'P+R+A'</span><span class="p">]])</span>
 <span class="c1"># Display the stats for the player inputted.</span>
 </pre></div>
 
@@ -488,10 +492,11 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># read the CSV file</span>
-<span class="c1"># df = pd.read_csv("starbucks.csv")</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="c1"># read the CSV file</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"starbucks.csv"</span><span class="p">)</span>
 <span class="c1"># display the data in a table</span>
-<span class="c1"># print(df)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
     </div>
