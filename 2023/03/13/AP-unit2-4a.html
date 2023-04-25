@@ -10,8 +10,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Using Programs with Data is focused on SQL and database actions. Part A focuses on SQLAlchemy and an OOP programming style," />
 <meta property="og:description" content="Using Programs with Data is focused on SQL and database actions. Part A focuses on SQLAlchemy and an OOP programming style," />
-<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/lessons/2023/03/13/AP-unit2-4a.html" />
-<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/lessons/2023/03/13/AP-unit2-4a.html" />
+<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/2023/03/13/AP-unit2-4a.html" />
+<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/2023/03/13/AP-unit2-4a.html" />
 <meta property="og:site_name" content="Josh’s blog" />
 <meta property="og:image" content="https://joshuaw03628.github.io/Repository-1/images/python.png" />
 <meta property="og:type" content="article" />
@@ -20,7 +20,7 @@
 <meta property="twitter:image" content="https://joshuaw03628.github.io/Repository-1/images/python.png" />
 <meta property="twitter:title" content="Unit 2.4a Using Programs with Data, SQLAlchemy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-13T00:00:00-05:00","datePublished":"2023-03-13T00:00:00-05:00","description":"Using Programs with Data is focused on SQL and database actions. Part A focuses on SQLAlchemy and an OOP programming style,","headline":"Unit 2.4a Using Programs with Data, SQLAlchemy","image":"https://joshuaw03628.github.io/Repository-1/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/lessons/2023/03/13/AP-unit2-4a.html"},"url":"https://joshuaw03628.github.io/Repository-1/lessons/2023/03/13/AP-unit2-4a.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-13T00:00:00-05:00","datePublished":"2023-03-13T00:00:00-05:00","description":"Using Programs with Data is focused on SQL and database actions. Part A focuses on SQLAlchemy and an OOP programming style,","headline":"Unit 2.4a Using Programs with Data, SQLAlchemy","image":"https://joshuaw03628.github.io/Repository-1/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/2023/03/13/AP-unit2-4a.html"},"url":"https://joshuaw03628.github.io/Repository-1/2023/03/13/AP-unit2-4a.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Repository-1/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://joshuaw03628.github.io/Repository-1/feed.xml" title="Josh's blog" /><link rel="shortcut icon" type="image/x-icon" href="/Repository-1/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -86,13 +86,6 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
-      
-        <a class="category-tags-link" href="/Repository-1/categories/#Lessons">Lessons</a>
-        
-      
-      </p>
-    
 
     
       
@@ -153,7 +146,7 @@ window.onload = wrap_img;
 <a class="anchor" href="#Database-and-SQLAlchemy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Database and SQLAlchemy<a class="anchor-link" href="#Database-and-SQLAlchemy"> </a>
 </h1>
 <blockquote>
-<p>In this blog we will explore using programs with data, focused on Databases.  We will use SQLite Database to learn more about using Programs with Data.</p>
+<p>In this blog we will explore using programs with data, focused on Databases.  We will use SQLite Database to learn more about using Programs with Data.  <strong><em>Use Debugging through these examples to examine Objects created in Code</em></strong>.</p>
 </blockquote>
 <ul>
 <li>
@@ -189,12 +182,12 @@ window.onload = wrap_img;
 <p>Defines and key object creations</p>
 </blockquote>
 <ul>
-<li>Comment on where you have observed these working?</li>
-</ul>
-<ol>
+<li>Comment on where you have observed these working?  Provide a defintion of purpose.<ol>
 <li>Flask app object</li>
-<li>SQLAlchemy object</li>
+<li>SQLAlchemy db object</li>
 </ol>
+</li>
+</ul>
 
 </div>
 </div>
@@ -220,7 +213,7 @@ window.onload = wrap_img;
 <span class="c1"># Setup of key Flask object (app)</span>
 <span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 <span class="c1"># Setup SQLAlchemy object and properties for the database (db)</span>
-<span class="n">database</span> <span class="o">=</span> <span class="s1">'sqlite:///files/sqlite.db'</span>  <span class="c1"># path and filename of database</span>
+<span class="n">database</span> <span class="o">=</span> <span class="s1">'sqlite:///sqlite.db'</span>  <span class="c1"># path and filename of database</span>
 <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'SQLALCHEMY_TRACK_MODIFICATIONS'</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'SQLALCHEMY_DATABASE_URI'</span><span class="p">]</span> <span class="o">=</span> <span class="n">database</span>
 <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'SECRET_KEY'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'SECRET_KEY'</span>
@@ -238,7 +231,8 @@ window.onload = wrap_img;
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Model-Definition">
 <a class="anchor" href="#Model-Definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model Definition<a class="anchor-link" href="#Model-Definition"> </a>
@@ -247,18 +241,22 @@ window.onload = wrap_img;
 <p>Define columns, initialization, and CRUD methods for users table in sqlite.db</p>
 </blockquote>
 <ul>
-<li>Comment on these items in the class</li>
-<li>class User purpose</li>
+<li>Comment on these items in the class, purpose and defintion.<ul>
+<li>class User</li>
 <li>db.Model inheritance</li>
 <li>
 <em>init</em> method</li>
-<li>@property, @<column>.setter&lt;/li&gt;
-<li>additional methods</li>
-&lt;/ul&gt;
+<li>
+<code>@property</code>, <code>@&lt;column&gt;.setter</code>
+</li>
+<li>create, read, update, delete methods</li>
+</ul>
+</li>
+</ul>
 
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -311,12 +309,12 @@ window.onload = wrap_img;
     <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_name</span> <span class="o">=</span> <span class="n">name</span>
     
-    <span class="c1"># a getter method, extracts email from object</span>
+    <span class="c1"># a getter method, extracts uid from object</span>
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">uid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_uid</span>
     
-    <span class="c1"># a setter function, allows name to be updated after initial object creation</span>
+    <span class="c1"># a setter function, allows uid to be updated after initial object creation</span>
     <span class="nd">@uid</span><span class="o">.</span><span class="n">setter</span>
     <span class="k">def</span> <span class="nf">uid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uid</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_uid</span> <span class="o">=</span> <span class="n">uid</span>
@@ -329,36 +327,37 @@ window.onload = wrap_img;
     <span class="k">def</span> <span class="nf">password</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_password</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"..."</span> <span class="c1"># because of security only show 1st characters</span>
 
-    <span class="c1"># update password, this is conventional setter</span>
+    <span class="c1"># update password, this is conventional method used for setter</span>
     <span class="k">def</span> <span class="nf">set_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
         <span class="sd">"""Create a hashed password."""</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_password</span> <span class="o">=</span> <span class="n">generate_password_hash</span><span class="p">(</span><span class="n">password</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">'sha256'</span><span class="p">)</span>
 
-    <span class="c1"># check password parameter versus stored/encrypted password</span>
+    <span class="c1"># check password parameter against stored/encrypted password</span>
     <span class="k">def</span> <span class="nf">is_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
         <span class="sd">"""Check against hashed password."""</span>
         <span class="n">result</span> <span class="o">=</span> <span class="n">check_password_hash</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_password</span><span class="p">,</span> <span class="n">password</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span>
     
-    <span class="c1"># dob property is returned as string, to avoid unfriendly outcomes</span>
+    <span class="c1"># dob property is returned as string, a string represents date outside object</span>
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">dob</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">dob_string</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">'%m-</span><span class="si">%d</span><span class="s1">-%Y'</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">dob_string</span>
     
-    <span class="c1"># dob should be have verification for type date</span>
+    <span class="c1"># dob setter, verifies date type before it is set or default to today</span>
     <span class="nd">@dob</span><span class="o">.</span><span class="n">setter</span>
     <span class="k">def</span> <span class="nf">dob</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dob</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">dob</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>  <span class="c1"># not a date type     </span>
             <span class="n">dob</span> <span class="o">=</span> <span class="n">date</span><span class="o">=</span><span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span> <span class="o">=</span> <span class="n">dob</span>
     
+    <span class="c1"># age is calculated field, age is returned according to date of birth</span>
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">today</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="p">((</span><span class="n">today</span><span class="o">.</span><span class="n">month</span><span class="p">,</span> <span class="n">today</span><span class="o">.</span><span class="n">day</span><span class="p">)</span> <span class="o">&lt;</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_dob</span><span class="o">.</span><span class="n">month</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dob</span><span class="o">.</span><span class="n">day</span><span class="p">))</span>
     
-    <span class="c1"># output content using str(object) in human readable form, uses getter</span>
+    <span class="c1"># output content using str(object) is in human readable form</span>
     <span class="c1"># output content using json dumps, this is ready for API response</span>
     <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
@@ -425,13 +424,13 @@ window.onload = wrap_img;
 <p>Uses SQLALchemy db.create_all() to initialize rows into sqlite.db</p>
 </blockquote>
 <ul>
-<li>Comment on how these work?</li>
-</ul>
-<ol>
+<li>Comment on how these work?<ol>
 <li>Create All Tables from db Object</li>
 <li>User Object Constructors</li>
 <li>Try / Except </li>
 </ol>
+</li>
+</ul>
 
 </div>
 </div>
@@ -452,7 +451,7 @@ window.onload = wrap_img;
         <span class="sd">"""Create database and tables"""</span>
         <span class="n">db</span><span class="o">.</span><span class="n">create_all</span><span class="p">()</span>
         <span class="sd">"""Tester data for table"""</span>
-        <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Thomas Edison'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'toby'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123toby'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">1847</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">))</span>
+        <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Thomas Edison'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'toby'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123toby'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">1847</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">))</span>
         <span class="n">u2</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Nikola Tesla'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'niko'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123niko'</span><span class="p">)</span>
         <span class="n">u3</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Alexander Graham Bell'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'lex'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123lex'</span><span class="p">)</span>
         <span class="n">u4</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Eli Whitney'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'whit'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123whit'</span><span class="p">)</span>
@@ -492,12 +491,12 @@ window.onload = wrap_img;
 <p>Use of ORM Query object and custom methods to identify user to credentials uid and password</p>
 </blockquote>
 <ul>
-<li>Comment on purpose of following</li>
-</ul>
-<ol>
+<li>Comment on purpose of following<ol>
 <li>User.query.filter_by</li>
 <li>user.password</li>
 </ol>
+</li>
+</ul>
 
 </div>
 </div>
@@ -544,14 +543,14 @@ window.onload = wrap_img;
 <p>Uses SQLALchemy and custom user.create() method to add row.</p>
 </blockquote>
 <ul>
-<li>Comment on purpose of following</li>
-</ul>
-<ol>
+<li>Comment on purpose of following<ol>
 <li>user.find_by_uid() and try/except</li>
 <li>user = User(...)</li>
 <li>user.dob and try/except</li>
 <li>user.create() and try/except</li>
 </ol>
+</li>
+</ul>
 
 </div>
 </div>
@@ -589,7 +588,7 @@ window.onload = wrap_img;
         <span class="n">user</span><span class="o">.</span><span class="n">dob</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">dob</span><span class="p">,</span> <span class="s1">'%Y-%m-</span><span class="si">%d</span><span class="s1">'</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">()</span>
     <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
         <span class="n">user</span><span class="o">.</span><span class="n">dob</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Invalid date </span><span class="si">{</span><span class="n">dob</span><span class="si">}</span><span class="s2"> require YYYY-mm-dd, date defaulted to </span><span class="si">{</span><span class="n">user</span><span class="o">.</span><span class="n">dbo</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Invalid date </span><span class="si">{</span><span class="n">dob</span><span class="si">}</span><span class="s2"> require YYYY-mm-dd, date defaulted to </span><span class="si">{</span><span class="n">user</span><span class="o">.</span><span class="n">dob</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
            
     <span class="c1"># write object to database</span>
     <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">app_context</span><span class="p">():</span>
@@ -619,12 +618,12 @@ window.onload = wrap_img;
 <p>Uses SQLALchemy query.all method to read data</p>
 </blockquote>
 <ul>
-<li>Comment on purpose of following</li>
-</ul>
-<ol>
+<li>Comment on purpose of following<ol>
 <li>User.query.all</li>
-<li>json_ready assignment</li>
+<li>json_ready assignment, google List Comprehension</li>
 </ol>
+</li>
+</ul>
 
 </div>
 </div>
@@ -640,7 +639,7 @@ window.onload = wrap_img;
 <span class="k">def</span> <span class="nf">read</span><span class="p">():</span>
     <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">app_context</span><span class="p">():</span>
         <span class="n">table</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-    <span class="n">json_ready</span> <span class="o">=</span> <span class="p">[</span><span class="n">user</span><span class="o">.</span><span class="n">read</span><span class="p">()</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">table</span><span class="p">]</span> <span class="c1"># each user adds user.read() to list</span>
+    <span class="n">json_ready</span> <span class="o">=</span> <span class="p">[</span><span class="n">user</span><span class="o">.</span><span class="n">read</span><span class="p">()</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">table</span><span class="p">]</span> <span class="c1"># "List Comprehensions", for each user add user.read() to list</span>
     <span class="k">return</span> <span class="n">json_ready</span>
 
 <span class="n">read</span><span class="p">()</span>
@@ -661,25 +660,22 @@ window.onload = wrap_img;
 </h1>
 <ul>
 <li>Add this Blog to you own Blogging site.  In the Blog add notes and observations on each code cell.</li>
+<li>Change blog to your own database.</li>
+<li>Add additional CRUD<ul>
 <li>Add Update functionality to this blog.</li>
 <li>Add Delete functionality to this blog.</li>
 </ul>
-
-</div>
-</div>
-</div>
-&lt;/div&gt;
- 
-
-</column>
 </li>
 </ul>
+
 </div>
-</div></div>
+</div>
+</div>
 </div>
 
 
-  </div><a class="u-url" href="/Repository-1/lessons/2023/03/13/AP-unit2-4a.html" hidden></a>
+
+  </div><a class="u-url" href="/Repository-1/2023/03/13/AP-unit2-4a.html" hidden></a>
 </article>
 
       </div>

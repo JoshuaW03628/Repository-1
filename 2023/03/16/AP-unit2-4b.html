@@ -10,8 +10,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Using Programs with Data is focused on SQL and database actions. Part B focuses on learning SQL commands, connections, and curses using an Imperative programming style," />
 <meta property="og:description" content="Using Programs with Data is focused on SQL and database actions. Part B focuses on learning SQL commands, connections, and curses using an Imperative programming style," />
-<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/lessons/2023/03/16/AP-unit2-4b.html" />
-<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/lessons/2023/03/16/AP-unit2-4b.html" />
+<link rel="canonical" href="https://joshuaw03628.github.io/Repository-1/2023/03/16/AP-unit2-4b.html" />
+<meta property="og:url" content="https://joshuaw03628.github.io/Repository-1/2023/03/16/AP-unit2-4b.html" />
 <meta property="og:site_name" content="Josh’s blog" />
 <meta property="og:image" content="https://joshuaw03628.github.io/Repository-1/images/python.png" />
 <meta property="og:type" content="article" />
@@ -20,7 +20,7 @@
 <meta property="twitter:image" content="https://joshuaw03628.github.io/Repository-1/images/python.png" />
 <meta property="twitter:title" content="Unit 2.4b Using Programs with Data, SQL" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-16T00:00:00-05:00","datePublished":"2023-03-16T00:00:00-05:00","description":"Using Programs with Data is focused on SQL and database actions. Part B focuses on learning SQL commands, connections, and curses using an Imperative programming style,","headline":"Unit 2.4b Using Programs with Data, SQL","image":"https://joshuaw03628.github.io/Repository-1/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/lessons/2023/03/16/AP-unit2-4b.html"},"url":"https://joshuaw03628.github.io/Repository-1/lessons/2023/03/16/AP-unit2-4b.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-16T00:00:00-05:00","datePublished":"2023-03-16T00:00:00-05:00","description":"Using Programs with Data is focused on SQL and database actions. Part B focuses on learning SQL commands, connections, and curses using an Imperative programming style,","headline":"Unit 2.4b Using Programs with Data, SQL","image":"https://joshuaw03628.github.io/Repository-1/images/python.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://joshuaw03628.github.io/Repository-1/2023/03/16/AP-unit2-4b.html"},"url":"https://joshuaw03628.github.io/Repository-1/2023/03/16/AP-unit2-4b.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Repository-1/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://joshuaw03628.github.io/Repository-1/feed.xml" title="Josh's blog" /><link rel="shortcut icon" type="image/x-icon" href="/Repository-1/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -86,13 +86,6 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
-      
-        <a class="category-tags-link" href="/Repository-1/categories/#Lessons">Lessons</a>
-        
-      
-      </p>
-    
 
     
       
@@ -153,7 +146,7 @@ window.onload = wrap_img;
 <a class="anchor" href="#Database-Programming-is-Program-with-Data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Database Programming is Program with Data<a class="anchor-link" href="#Database-Programming-is-Program-with-Data"> </a>
 </h1>
 <blockquote>
-<p>The Tri 2 Final Project is an example of a Program with Data.</p>
+<p>Each Tri 2 Final Project should be an example of a Program with Data.</p>
 <p>Prepare to use SQLite in common Imperative Technique</p>
 <ul>
 <li>Explore <a href="https://www.tutorialspoint.com/python_data_access/python_sqlite_establishing_connection.htm">SQLite Connect object</a> to establish database connection- Explore <a href="https://www.tutorialspoint.com/python_data_access/python_sqlite_cursor_object.htm">SQLite Cursor Object</a> to fetch data from a table within a database</li>
@@ -191,7 +184,7 @@ window.onload = wrap_img;
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sqlite3</span>
 
-<span class="n">database</span> <span class="o">=</span> <span class="s1">'files/sqlite.db'</span> <span class="c1"># this is location of database</span>
+<span class="n">database</span> <span class="o">=</span> <span class="s1">'instance/sqlite.db'</span> <span class="c1"># this is location of database</span>
 
 <span class="k">def</span> <span class="nf">schema</span><span class="p">():</span>
     
@@ -211,7 +204,7 @@ window.onload = wrap_img;
     <span class="c1"># Close the database connection</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     
-<span class="n">schema</span><span class="p">()</span>
+<span class="n">schema</span><span class="p">()</span> <span class="c1"># meta-data for the database</span>
 </pre></div>
 
     </div>
@@ -423,7 +416,7 @@ window.onload = wrap_img;
 <p>Uses a delete function to remove a user based on a user input of the id.</p>
 <ul>
 <li>Is DELETE a dangerous operation?  Why?</li>
-<li>What is the "f" and {uid} do?</li>
+<li>In the print statemements, what is the "f" and what does {uid} do?</li>
 </ul>
 </blockquote>
 
@@ -537,10 +530,14 @@ window.onload = wrap_img;
 </h1>
 <ul>
 <li>Add this Blog to you own Blogging site.  In the Blog add notes and observations on each code cell.</li>
-<li>Create a new Table or do something new, <a href="https://www.sqlitetutorial.net/sqlite-python/creating-tables/">sqlite documentation</a>
-</li>
-<li>In implementation in previous bullet, do you see procedural abstraction?</li>
+<li>In this implementation, do you see procedural abstraction?</li>
+<li>In 2.4a or 2.4b lecture<ul>
+<li>Do you see data abstraction?  Complement this with Debugging example.</li>
+<li>Use Imperative or OOP style to Create a new Table or do something that applies to your CPT project.</li>
 </ul>
+</li>
+</ul>
+<p>Reference... <a href="https://www.sqlitetutorial.net/sqlite-python/creating-tables/">sqlite documentation</a></p>
 
 </div>
 </div>
@@ -549,7 +546,7 @@ window.onload = wrap_img;
 
 
 
-  </div><a class="u-url" href="/Repository-1/lessons/2023/03/16/AP-unit2-4b.html" hidden></a>
+  </div><a class="u-url" href="/Repository-1/2023/03/16/AP-unit2-4b.html" hidden></a>
 </article>
 
       </div>
